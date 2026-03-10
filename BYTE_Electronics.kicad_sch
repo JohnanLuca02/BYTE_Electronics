@@ -972,7 +972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
 			(at 113.03 27.94 0)
 			(effects
 				(font
@@ -999,6 +999,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5334533"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b028377b-fec9-4b62-a9ec-ab27a5c7c798")
 		)
@@ -1009,6 +1018,85 @@
 			(project "BYTE_Electronics"
 				(path "/0c60501e-60f9-4c7f-923a-18a46703e785"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LM2596S-3.3")
+		(at 133.35 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "193b7b61-9fd8-442c-a81c-127ccc332b40")
+		(property "Reference" "U1"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596S-3.3"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library_mis componentes:BEC_Matek_12S_Pro"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "979d9c99-2986-4b93-b735-ceccb1d8dc0c")
+		)
+		(pin "1"
+			(uuid "2add36c7-2f98-4bb8-9cc7-e5e89ee97bba")
+		)
+		(pin "3"
+			(uuid "e561d7ae-bd67-486d-ad49-bdfc5d4fdeb5")
+		)
+		(pin "2"
+			(uuid "916b3bd6-c80a-4923-9c43-10a82e863f4e")
+		)
+		(pin "5"
+			(uuid "9c345615-521d-4900-8a99-229a497b4a82")
+		)
+		(instances
+			(project ""
+				(path "/0c60501e-60f9-4c7f-923a-18a46703e785"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1061,6 +1149,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 52.07 113.03 0)
 			(effects
 				(font
@@ -1134,6 +1231,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 113.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f37b866-21d6-4865-a60f-3ce63ca69b22")
 		)
@@ -1194,6 +1300,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 113.03 64.77 0)
 			(effects
 				(font
@@ -1339,6 +1454,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 52.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84aaf2b1-da46-405c-a72a-9f961e49678c")
 		)
@@ -1406,6 +1530,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f62eae-6abb-4556-8f0a-080e499b91bd")
 		)
@@ -1422,85 +1555,6 @@
 			(project "BYTE_Electronics"
 				(path "/0c60501e-60f9-4c7f-923a-18a46703e785"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM2596S-3.3")
-		(at 132.08 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c46d6851-ebfa-4dbb-8221-b227a3874bb3")
-		(property "Reference" "U1"
-			(at 132.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596S-3.3"
-			(at 132.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V 3A Step-Down Voltage Regulator, TO-263"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8936ee00-9921-4e90-bca9-07341a0ff4e4")
-		)
-		(pin "2"
-			(uuid "14145761-ee56-4842-8984-afa5fc695774")
-		)
-		(pin "5"
-			(uuid "19acd7a1-8515-4a95-b372-a26bb27c29ea")
-		)
-		(pin "3"
-			(uuid "27b483a2-5e90-45a1-8564-0727dedbd239")
-		)
-		(pin "4"
-			(uuid "6885b766-86e1-410f-80ba-b309ac7829b2")
-		)
-		(instances
-			(project "BYTE_Electronics"
-				(path "/0c60501e-60f9-4c7f-923a-18a46703e785"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1553,6 +1607,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 72.39 113.03 0)
 			(effects
 				(font
@@ -1754,6 +1817,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 72.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 72.39 101.6 0)
 			(effects
 				(font
