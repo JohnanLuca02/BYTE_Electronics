@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Power_compo_Byte")(type "KiCad")(uri "${KIPRJMOD}/Power_compo_Byte.kicad_sym")(options "")(descr ""))
+)

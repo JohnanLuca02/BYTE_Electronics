@@ -1133,6 +1133,10 @@
 		(color 0 0 0 0)
 		(uuid "abe3c423-9d64-4b0c-af46-166ef6184b15")
 	)
+	(no_connect
+		(at 220.98 13.97)
+		(uuid "ade4352c-76f5-427a-9a82-1bbc52e70e73")
+	)
 	(wire
 		(pts
 			(xy 73.66 135.89) (xy 73.66 140.97)
@@ -1172,6 +1176,16 @@
 			(type default)
 		)
 		(uuid "1a44573c-3a0d-4caa-a205-90c798b5ac44")
+	)
+	(wire
+		(pts
+			(xy 171.45 21.59) (xy 171.45 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5fd910-4598-44ef-a89b-7269fe10b84a")
 	)
 	(wire
 		(pts
@@ -1222,16 +1236,6 @@
 			(type default)
 		)
 		(uuid "3357140a-cc2f-4b96-87ec-72fa3702d135")
-	)
-	(wire
-		(pts
-			(xy 171.45 21.59) (xy 171.45 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370da29a-258d-4d1c-826d-b6b9281a7926")
 	)
 	(wire
 		(pts
@@ -1659,7 +1663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
 			(at 33.02 44.45 0)
 			(effects
 				(font
@@ -1727,7 +1731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 128.27 31.75 0)
 			(effects
 				(font
@@ -1754,7 +1758,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5334533"
+		(property "LCSC" ""
 			(at 128.27 31.75 0)
 			(effects
 				(font
@@ -2294,7 +2298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kohms"
+		(property "Value" "100kohms"
 			(at 173.99 30.4799 0)
 			(effects
 				(font
@@ -2303,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 169.672 29.21 90)
 			(effects
 				(font
@@ -2322,6 +2326,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 171.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25717"
 			(at 171.45 29.21 0)
 			(effects
 				(font
@@ -2371,7 +2384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -2448,7 +2461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 128.27 80.01 0)
 			(effects
 				(font
@@ -2518,7 +2531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 154.94 54.9909 0)
 			(effects
 				(font
@@ -2527,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint_PB_Byte:VZH331M2ATR-1816"
 			(at 152.0952 58.42 0)
 			(effects
 				(font
@@ -2536,7 +2549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Lelon-VZH331M2ATR1816/C176687"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -2738,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -3141,7 +3154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 153.67 30.8609 0)
 			(effects
 				(font
@@ -3150,7 +3163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint_PB_Byte:VZH331M2ATR-1816"
 			(at 150.8252 34.29 0)
 			(effects
 				(font
@@ -3211,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 153.67 79.1209 0)
 			(effects
 				(font
@@ -3220,7 +3233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint_PB_Byte:VZH331M2ATR-1816"
 			(at 150.8252 82.55 0)
 			(effects
 				(font
@@ -3239,6 +3252,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 149.86 78.74 0)
 			(effects
 				(font
