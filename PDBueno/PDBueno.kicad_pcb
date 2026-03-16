@@ -1555,7 +1555,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J3"
-			(at 2.54 -5.08 0)
+			(at 2.54 5.08 0)
 			(layer "F.SilkS")
 			(uuid "92c39b06-3423-4be4-b880-e9cdb88872e2")
 			(effects
@@ -1800,7 +1800,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J5"
-			(at 2.54 -5.08 0)
+			(at 2.46 5.08 0)
 			(layer "F.SilkS")
 			(uuid "83783e2d-9237-478d-90f9-6acc772ddb06")
 			(effects
@@ -4424,7 +4424,7 @@
 		(uuid "7efee44a-266d-4a7c-9846-ac7964b61595")
 	)
 	(gr_text "-"
-		(at 114.3 104.14 0)
+		(at 109.3 105.41 0)
 		(layer "F.SilkS")
 		(uuid "2cd91852-b385-4577-b953-4ec7699cd192")
 		(effects
@@ -4436,8 +4436,34 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Designed by \n	Anaïs Bueno, Loïc Finette\n	Johnan Luca, Maxime Blanpain"
-		(at 88.9 83.82 0)
+	(gr_text "+\n"
+		(at 114.38 105.41 0)
+		(layer "F.SilkS")
+		(uuid "666ec815-5d6f-4bb6-a621-dba632de2e75")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 94.06 105.41 0)
+		(layer "F.SilkS")
+		(uuid "b0013e5a-a9bc-4314-980c-1c0887b40151")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PDBueno designed by \n	EPFL AI-Team \n	BARK project\n16.03.2026"
+		(at 96.52 86.36 0)
 		(layer "F.SilkS")
 		(uuid "d612acd7-5363-49b1-9dbe-3b7aa199f687")
 		(effects
@@ -4448,15 +4474,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+"
-		(at 109.22 104.14 0)
+	(gr_text "Every machine\nis a smoke machine\nif used wrong enough"
+		(at 58.42 111.76 0)
 		(layer "F.SilkS")
-		(uuid "f2779d8d-4332-4ba4-bdc2-1c1e6ffd8480")
+		(uuid "f6ef6230-ac24-4052-b7b2-dfbe3c8400dd")
 		(effects
 			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
