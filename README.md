@@ -20,3 +20,7 @@ Repository for everything concerning the electronics (PCB, Electrical schemes, B
    - git commit -m "[*Message describing the changes made*]"
 4) At the end of your session, ore once you're happy with your work, push your progress on the repo:
    - git push
+  
+**FOR EASYEDA2KICAD PLUG-IN**
+
+easyeda2kicad --full --lcsc_id C22463856 --output .
