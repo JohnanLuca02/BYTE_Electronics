@@ -1,0 +1,880 @@
+{
+  "schematics": {
+    "31be7a5e16b545d0a76c41c775d7f040": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "15cd9f1be05c4affb9309efabb7800eb"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "f447aa8587bf46db8477f10d3b3ab966": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "f85fe008a3b348cd990cb670aaea0b25": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734001722",
+      "type": 20
+    },
+    "3474c6924b4b4775aed4dc65de3eb6c0": {
+      "source": "a37d51bcf42d41ee88594965b26d017a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Industrial control electrical\",\"Power connector / plug connector\"]",
+      "title": "XT90PW-M.G.Y",
+      "version": "1720428901",
+      "type": 2
+    },
+    "f240f18f1c1e469c9963683692de119b": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "338b0016a3e44ccca0afffd2fdb5dc3f": {
+      "source": "ab4033a5bdbb4cbfb4a0064cf021edd5|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "TESTPOINT",
+      "version": "1755515172",
+      "type": 2
+    },
+    "c0dd1a73789a483693b59a9b0574397f": {
+      "source": "d7167df5d22a46e28284509dedfad680|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Netport-IN",
+      "version": "1649575449",
+      "type": 19
+    },
+    "a9780c51f67646769b8a046be626a72a": {
+      "source": "ef6bf8ac67dc4f30bffcc3d250096128|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Industrial control electrical\",\"Power connector / plug connector\"]",
+      "title": "XT30PW-M",
+      "version": "1728553100",
+      "type": 2
+    },
+    "6e0203a77f3a4e12ac436a2df01a281a": {
+      "source": "e5f479cbc3f04dbf8d19c2a70c1924cb|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Screw-Hole",
+      "version": "1704952034",
+      "type": 2
+    },
+    "1402cf58957b448baa6e79df1a0e3f9a": {
+      "source": "dce236d00d4c4362aad438d1057d78fd|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "M3_HOLE_PLATED",
+      "version": "1702906849",
+      "type": 2
+    },
+    "84adaaa889404feb86eb4438824d73d2": {
+      "source": "43dada69ce3d4aaba49466b172164da0|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "M3 PLATED HOLE",
+      "version": "1737601362",
+      "type": 2
+    },
+    "520ab7b950b24c25a3c16779a29b1e82": {
+      "source": "887b4e288fb34994bc5584f2de64ea46|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "TP-黑色测试点",
+      "version": "1707675479",
+      "type": 2
+    },
+    "2e2331f633d242069efe584af2f5e310": {
+      "source": "89a184693bc84c529b805e199345678e|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "M3_Plated_hole",
+      "version": "1767617938",
+      "type": 2
+    },
+    "ee8761b9cdd04af7bcc27df31d737b0d": {
+      "source": "73b4a9d8164441e68c1868e4e87cb707|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Mark-Point",
+      "version": "1704951447",
+      "type": 2
+    },
+    "953c13d1eca24eeb8a7e48148d84e05e": {
+      "source": "b65f1095198842b2bb559bf454ffee1e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Aluminum Electrolytic Capacitors - SMD\"]",
+      "title": "VZH331M2ATR-1816",
+      "version": "1752144025",
+      "type": 2
+    },
+    "c284cb93e1364a0baf0af55518595cff": {
+      "source": "69fa91bdc80540dba53e6661758b18e1|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "RMC120647K1%N",
+      "version": "1705401017",
+      "type": 2
+    },
+    "1daabf4e2fcd448f8338b0aca3ecb8dd": {
+      "source": "a4f4c42cbd384d35a5d6c6cf6bffb3c6|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-5V",
+      "version": "1723254129",
+      "type": 18
+    },
+    "c6e378552e904f42a89726d07d7f8137": {
+      "source": "b11bed56e0bb4deeb92cd2e3702804c2|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\",\"Wire To Board Connector\"]",
+      "title": "S3B-XH-A (LF)(SN)",
+      "version": "1721209502",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "51dae495ec3d427dae2575fdc7de71cf": {
+      "title": "CONN-TH_XT90PW-M.G.Y",
+      "source": "3e23a941638c4e84817823ed94a880f7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1697507926",
+      "type": 4,
+      "desc": ";-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-TH\"]"
+    },
+    "b88c7025c43d4af8aca7e941cc48e374": {
+      "title": "CONN-TH_XT30PW-M",
+      "source": "18a04ee1068b42e4af644571545b6335|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1724397438",
+      "type": 4,
+      "desc": ";-;插件",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-TH\"]"
+    },
+    "54ba2274c90e436e800b7b4bb33dd512": {
+      "title": "CONN-SMD_5017",
+      "source": "b2839357f8f7489294bdb655b9fb40c5|user",
+      "version": 1773868982672,
+      "type": 4,
+      "desc": ";Testpoint_SMD",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "1ae24a062922489f8433f469a74547c1": {
+      "title": "Screw-Hole-M3",
+      "source": "228bcf7a313c423792660b861edea7d8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1704952190",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "6f9b428903744f669e7d30e4e0040ccf": {
+      "title": "M3 HOLE PLATED",
+      "source": "62bfe90578064ddaabc698c24430b0b4|user",
+      "version": "1702906854",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "88abde5e32ff4280abc8ca69b83f7e2e": {
+      "title": "HOLE_3MM_SCREW_PLATED",
+      "source": "a85d80c791b64d8db3e0cd8dcf7fd3d5|user",
+      "version": "1737601447",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "4737bb7293204e70a01bafd87e6cb231": {
+      "title": "TESTPOINT-TH_BD3.2",
+      "source": "33dcaedd22714061ad43f11b26240dee|user",
+      "version": "1707675482",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "972e69d54eaa4f258ca3df3a7de9a88f": {
+      "title": "Mark-Point-1mm",
+      "source": "42384742744f43e3847309afacbea172|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1704951447",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "832f07030bc644cdbb81edda311a0f64": {
+      "title": "M3_Plated_hole",
+      "source": "518ab997bbb242d0a01e3fba79f2e653|user",
+      "version": "1732523910",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "ad0d9b291b544e32ab9d6a43dc08e15b": {
+      "title": "CAP-SMD_BD18.0-L19.0-W19.0-FD",
+      "source": "ea7d0b4b5862493da0bf99f1155b026d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1677320110",
+      "type": 4,
+      "desc": ";SMD,D18xL21.5mm;SMD;SMD,D18xL16.5mm;SMD,D18xL18.5mm;SMD,18x16.5mm;SMD,D18xL21mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "54169eb768174fc8958772e768310ae8": {
+      "title": "R1206",
+      "source": "878e4795cf9f4d318e388d05a2d27362|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652416987",
+      "type": 4,
+      "desc": ";1206;-;---;SMD;1216;R1206;SMD,3.2x1.6x1.6mm;1206.0;1210;1206R;3216[1206];SMD,3.2x1.6x1.1mm;2512;RES1206;RES1206-SMD-2P;M1206;PNP_SOT23;SMD-2P;SO8N",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "4c8d4b7bfc6849de93d44c40b2a99f6c": {
+      "title": "CONN-TH_S3B-XH-A-LF-SN",
+      "source": "da546bdee49b47bd852f0d3d099a7238|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1625731304",
+      "type": 4,
+      "desc": ";弯插,P=2.5mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-TH\"]"
+    }
+  },
+  "devices": {
+    "1ace1842006f4852aa1230f41f331249": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "f240f18f1c1e469c9963683692de119b",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "3e2a1f6f39474db3bad1930e573cb7d4": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "EasyEDA.com",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "f85fe008a3b348cd990cb670aaea0b25",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734001722",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "d9692527e1d947fe8c0d0f3b3176765c": {
+      "title": "XT90PW-M.G.Y",
+      "attributes": {
+        "LCSC Part Name": "XT90PW-M.G.Y 插头",
+        "Supplier Part": "C3040689",
+        "Manufacturer": "AMASS(艾迈斯)",
+        "Manufacturer Part": "XT90PW-M.G.Y",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XT90PW-M.G.Y/3598456.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "3474c6924b4b4775aed4dc65de3eb6c0",
+        "Designator": "CN?",
+        "Footprint": "51dae495ec3d427dae2575fdc7de71cf",
+        "3D Model": "40e056b71b024a2ca28761379a3f897e",
+        "3D Model Title": "CONN-TH_XT90PW-M.G.Y",
+        "3D Model Transform": "818.896,1066.927,0,0,0,0,0,250.004,-118.11",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230106/A6A80A09B3241325F549BE43E46919BD.jpg"
+      ],
+      "source": "1579873fa72a491fbe05386658a3c285|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1700192568",
+      "custom_tags": "[\"Industrial control electrical\",\"Power connector / plug connector\"]"
+    },
+    "1da8c44b1cb446aa921af41f0c5eeb41": {
+      "title": "Netport-IN",
+      "attributes": {
+        "Symbol": "c0dd1a73789a483693b59a9b0574397f",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "1e49409bec974672828f01a773e33450|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575456",
+      "custom_tags": "[]"
+    },
+    "1c70cd10e80b49bc8afe0374d077037f": {
+      "title": "TESTPOINT",
+      "attributes": {
+        "LCSC Part Name": "5017",
+        "Supplier Part": "C9900015874",
+        "Manufacturer": "",
+        "Manufacturer Part": "5017",
+        "Supplier Footprint": "Testpoint_SMD",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "338b0016a3e44ccca0afffd2fdb5dc3f",
+        "Designator": "CN?",
+        "Footprint": "54ba2274c90e436e800b7b4bb33dd512",
+        "3D Model": "284acfa528814557b050d6ef3ec24c83",
+        "3D Model Title": "CONN-SMD_5017",
+        "3D Model Transform": "105.092,40.1574,0,0,0,0,0,0,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "a49dd734aa3645f098eb73996d8ff262|user",
+      "version": "1755515174",
+      "custom_tags": "[]"
+    },
+    "890a038c83984f698abc6ee1ff0fb87b": {
+      "title": "XT30PW-M30.G.Y",
+      "attributes": {
+        "LCSC Part Name": "AMASS(艾迈斯)航模插头 卧式弯脚 XT30PW-M公头",
+        "Supplier Part": "C431092",
+        "Manufacturer": "AMASS(艾迈斯)",
+        "Manufacturer Part": "XT30PW-M30.G.Y",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XT30PW-M30.G.Y/426930.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a9780c51f67646769b8a046be626a72a",
+        "Designator": "CN?",
+        "Footprint": "b88c7025c43d4af8aca7e941cc48e374",
+        "3D Model": "e0c2d98eaeb0477481e3dacf36b4b3f8",
+        "3D Model Title": "CONN-TH_XT30PW-M",
+        "3D Model Transform": "523.621,549.2115,0,0,0,0,-0.005,-39.568,-78.74",
+        "Rated current": "15A",
+        "Rated voltage": "",
+        "Connector type": "Model aircraft plug",
+        "Wire gauge": "",
+        "contact resistance": "",
+        "Size/Specification": "",
+        "interface form": "Male",
+        "Name": "={Manufacturer Part}",
+        "Description": "Rated current:15A Rated voltage: Connector type:Model aircraft plug Wire gauge: contact resistance: Size/Specification: interface form:Male"
+      },
+      "description": "Rated current:15A Rated voltage: Connector type:Model aircraft plug Wire gauge: contact resistance: Size/Specification: interface form:Male",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250429/75046257C852FBFC90DCBB4225CB142A.jpg"
+      ],
+      "source": "bcf21bb288b64c469cfabc87da16c519|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660158248",
+      "custom_tags": "[\"Industrial control electrical\",\"Power connector / plug connector\"]"
+    },
+    "6419ffa992354c9eb64472cf964e54ad": {
+      "title": "Screw-Hole-M3",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "SCREW?",
+        "Name": "",
+        "Supplier Footprint": "插件",
+        "Symbol": "6e0203a77f3a4e12ac436a2df01a281a",
+        "Footprint": "1ae24a062922489f8433f469a74547c1",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "fb76778e7fb148049205a1bd9ef32d47|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1704951813",
+      "custom_tags": "[]"
+    },
+    "22edb47ca81d4ac39cd725195221f7b5": {
+      "title": "M3_HOLE_PLATED",
+      "attributes": {
+        "Designator": "H?",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "link": "",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "1402cf58957b448baa6e79df1a0e3f9a",
+        "Footprint": "6f9b428903744f669e7d30e4e0040ccf",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "ec2c8fd81067467b9fd66e30116b64e9|user",
+      "version": "1702906858",
+      "custom_tags": "[]"
+    },
+    "2f4cc08b0e5843a891facde7674c5853": {
+      "title": "M3 PLATED HOLE",
+      "attributes": {
+        "Designator": "U?",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "link": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Name": "M3 PLATED HOLE",
+        "Symbol": "84adaaa889404feb86eb4438824d73d2",
+        "Footprint": "88abde5e32ff4280abc8ca69b83f7e2e",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "534cf1671c1b4c298b3fd0e869888462|user",
+      "version": "1737601456",
+      "custom_tags": "[]"
+    },
+    "9898f983f4a941b39dc53646c1b4dd8b": {
+      "title": "TP-黑色测试点",
+      "attributes": {
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "520ab7b950b24c25a3c16779a29b1e82",
+        "LCSC Part Name": "TP-黑色测试点",
+        "Supplier Part": "C9900007426",
+        "Manufacturer": "",
+        "Manufacturer Part": "TP-黑色测试点",
+        "Supplier Footprint": "TESTPOINT-TH_BD-2P-P2.00",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "3D Model": "ebbe5445cc25473eb63a7514d72687af",
+        "3D Model Title": "TESTPOINT-TH_BD3.2",
+        "3D Model Transform": "125.984,125.84132,0,0,0,0,0,0,-125.984",
+        "Name": "={Manufacturer Part}",
+        "Footprint": "4737bb7293204e70a01bafd87e6cb231",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "3988261c57564e23a168130d2b9dbdc1|user",
+      "version": "1707675495",
+      "custom_tags": "[]"
+    },
+    "443b87590bd445a2a7a88e8840b3353f": {
+      "title": "Mark-Point",
+      "attributes": {
+        "Designator": "MARK?",
+        "Add into BOM": "no",
+        "Convert to PCB": "yes",
+        "Symbol": "ee8761b9cdd04af7bcc27df31d737b0d",
+        "Name": "",
+        "Footprint": "972e69d54eaa4f258ca3df3a7de9a88f",
+        "Description": "Mark点"
+      },
+      "description": "Mark点",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "eff7a72ff31a4f109218e7499d4a095c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1704951448",
+      "custom_tags": "[]"
+    },
+    "e8e83d2e87614ae7aaee7d7c19c21bcf": {
+      "title": "M3_Plated_hole",
+      "attributes": {
+        "Name": "",
+        "Designator": "M?",
+        "Add into BOM": "no",
+        "Convert to PCB": "yes",
+        "Symbol": "2e2331f633d242069efe584af2f5e310",
+        "Footprint": "832f07030bc644cdbb81edda311a0f64",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "ef1138e60c22442b8d4ddc0acfb456cb|user",
+      "version": "1767617938",
+      "custom_tags": "[\"Mechanics\"]"
+    },
+    "a5f95bea21bc41cab9e744def0eba4cf": {
+      "title": "VZH331M2ATR-1816",
+      "attributes": {
+        "LCSC Part Name": "330uF ±20% 100V",
+        "Supplier Part": "C176687",
+        "Manufacturer": "Lelon(立隆)",
+        "Manufacturer Part": "VZH331M2ATR-1816",
+        "Supplier Footprint": "SMD,D18xL16.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/VZH331M2ATR-1816/188077.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "953c13d1eca24eeb8a7e48148d84e05e",
+        "Designator": "C?",
+        "Footprint": "ad0d9b291b544e32ab9d6a43dc08e15b",
+        "3D Model": "6ed51f5ef2f1479e88a255d9d11425bb",
+        "3D Model Title": "CAP-SMD_BD18.0-L19.0-W19.0-H16.5",
+        "3D Model Transform": "748.03,787.4,0,90,0,0,0,0,0",
+        "Value": "330uF",
+        "Tolerance": "±20%",
+        "Voltage Rating": "100V",
+        "Ripple Current": "-",
+        "Equivalent Series Resistance(ESR)": "-",
+        "Diameter": "18mm",
+        "Height - Seated (Max)": "16.5mm",
+        "Lifetime": "5000hrs@105℃",
+        "Operating Temperature": "-45℃~+105℃",
+        "Name": "={Value}",
+        "Description": "Capacitance:330uF Tolerance:±20% Tolerance:±20% Voltage Rating:100V Ripple Current:- Equivalent Series Resistance(ESR):- Diameter:18mm Height - Seated (Max):16.5mm Lifetime:5000hrs@105℃ Operating Temperature:-45℃~+105℃ Operating Temperature:-45℃~+105℃"
+      },
+      "description": "Capacitance:330uF Tolerance:±20% Tolerance:±20% Voltage Rating:100V Ripple Current:- Equivalent Series Resistance(ESR):- Diameter:18mm Height - Seated (Max):16.5mm Lifetime:5000hrs@105℃ Operating Temperature:-45℃~+105℃ Operating Temperature:-45℃~+105℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230110/1C81662314C36EE946860F15A274F14E.jpg"
+      ],
+      "source": "a274de2427644511b503a2bcec80f144|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663011644",
+      "custom_tags": "[\"Capacitors\",\"Aluminum Electrolytic Capacitors - SMD\"]"
+    },
+    "9be59e1ba54b4a4e92da10d2487222c2": {
+      "title": "RMC120647K1%N",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 47kΩ ±1% 250mW",
+        "Supplier Part": "C325940",
+        "Manufacturer": "Tyohm(幸亚电阻)",
+        "Manufacturer Part": "RMC120647K1%N",
+        "Supplier Footprint": "1206",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/RMC120647K1%2525N/306145.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "c284cb93e1364a0baf0af55518595cff",
+        "Designator": "R?",
+        "Footprint": "54169eb768174fc8958772e768310ae8",
+        "3D Model": "04f48aacb8114155959811d2338bbb06",
+        "3D Model Title": "R1206_L3.2-W1.6-H0.6",
+        "3D Model Transform": "125.984,62.992,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "47kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "250mW",
+        "Voltage-Supply(Max)": "200V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:47kΩ Tolerance:±1% Tolerance:±1% Power(Watts):250mW Voltage-Supply(Max):200V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:47kΩ Tolerance:±1% Tolerance:±1% Power(Watts):250mW Voltage-Supply(Max):200V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250715/C35EFCB873721032DD13808771A2E76A.jpg"
+      ],
+      "source": "b252612f1f154db5a03d75f351333984|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664049633",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "0552296d2bcf4c1e821400b2d94ef1ce": {
+      "title": "Power-5V",
+      "attributes": {
+        "Global Net Name": "+5V",
+        "Name": "",
+        "Symbol": "1daabf4e2fcd448f8338b0aca3ecb8dd",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "",
+        "Description": "Power-5V"
+      },
+      "description": "Power-5V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "b07959542b3b48a1a4118cf5708700b6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1723254128",
+      "custom_tags": "[]"
+    },
+    "6a023d8698b9476eb77c8b6b108fb703": {
+      "title": "S3B-XH-A(LF)(SN)",
+      "attributes": {
+        "LCSC Part Name": "1x3P 间距:2.5mm 弯插 系列:XH",
+        "Supplier Part": "C157928",
+        "Manufacturer": "JST",
+        "Manufacturer Part": "S3B-XH-A(LF)(SN)",
+        "Supplier Footprint": "弯插,P=2.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180928/C265283_F9DFEEBDB2CF642B6BDFAB4B77BD2680.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "c6e378552e904f42a89726d07d7f8137",
+        "Designator": "CN?",
+        "Footprint": "4c8d4b7bfc6849de93d44c40b2a99f6c",
+        "3D Model": "53e830ec92554ce8b6ebb98afce921f9",
+        "3D Model Title": "CONN-TH_S3B-XH-A-LF-SN",
+        "3D Model Transform": "389.763,452.755,0,0,0,0,0,136.378,-137.795",
+        "Pins Structure": "1x3P",
+        "Pitch": "2.5mm",
+        "Mounting Style": "Bend insert",
+        "Reference Series": "XH",
+        "Number of Pins": "3P",
+        "Number of Rows": "1",
+        "Number of PINs Per Row": "3",
+        "Row Spacing": "-",
+        "Current Rating (Max)": "3A",
+        "Contact Material": "Brass",
+        "Contact Plating": "Tin",
+        "Operating Temperature Range": "-25℃~+85℃",
+        "Rated Voltage (Max)": "250V",
+        "Plastic Material": "PA66",
+        "Flame Retardant Rating": "UL94V-0",
+        "Supplementary Features": "K-leg punch",
+        "Colour": "White",
+        "Z-Height of the Board": "6.1mm",
+        "X-Length of Bottom Edge on Board (Spacing Line)": "9.9mm",
+        "Y-Width of Bottom Edge on Board": "11.5mm",
+        "Name": "={Manufacturer Part}",
+        "Description": "Pins Structure:1x3P Pitch:2.5mm Mounting Style:Bend insert Reference Series:XH Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating (Max):3A Contact Material:Brass Contact Plating:Tin Operating Temperature Range:-25℃~+8"
+      },
+      "description": "Pins Structure:1x3P Pitch:2.5mm Mounting Style:Bend insert Reference Series:XH Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating (Max):3A Contact Material:Brass Contact Plating:Tin Operating Temperature Range:-25℃~+8",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230110/2DB7FE5147F8DE395C887261C3DFDD3F.jpg"
+      ],
+      "source": "c1af4305cbb2420986031de4cb5eed74|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661546920",
+      "custom_tags": "[\"Connectors\",\"Wire To Board Connector\"]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "31be7a5e16b545d0a76c41c775d7f040",
+      "pcb": "f447aa8587bf46db8477f10d3b3ab966"
+    }
+  },
+  "config": {
+    "title": "PDBueno_pro",
+    "cbbProject": false,
+    "defaultSheet": "3e2a1f6f39474db3bad1930e573cb7d4",
+    "editorVersion": "2.2.46.11"
+  }
+}
