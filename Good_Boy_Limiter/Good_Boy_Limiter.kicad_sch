@@ -610,170 +610,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2372,6 +2208,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:SL1050-101M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SL1050-101M"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IND-SMD_L11.5-W10.5"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C22463847.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "台湾陆海"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SL1050-101M"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22463847"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Inductors (SMD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SL1050-101M_0_1"
+				(arc
+					(start -4.06 0.01)
+					(mid -3.035 1.02)
+					(end -2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 0.01)
+					(mid -1.005 1.02)
+					(end 0 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.01)
+					(mid 1.025 1.02)
+					(end 2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 0.01)
+					(mid 3.055 1.02)
+					(end 4.06 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:TC4427EOA_C636891"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2853,6 +2860,18 @@
 		)
 	)
 	(rectangle
+		(start 17.78 31.75)
+		(end 113.03 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ee23cc1-e03a-4ee9-b5bd-0962a03cd3a9)
+	)
+	(rectangle
 		(start 214.63 31.75)
 		(end 256.54 82.55)
 		(stroke
@@ -2866,7 +2885,7 @@
 	)
 	(rectangle
 		(start 21.59 119.38)
-		(end 110.49 186.69)
+		(end 110.49 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -2876,9 +2895,19 @@
 		)
 		(uuid f0d516db-5c5a-49d9-9f00-426fa225ee3a)
 	)
+	(text "Pre-charge Switch"
+		(exclude_from_sim no)
+		(at 61.214 28.956 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "189b648f-0ca3-4c75-bec7-ce00479a727b")
+	)
 	(text "DC-DC Buck switching-convertor\n48V -> 12V"
 		(exclude_from_sim no)
-		(at 64.008 115.57 0)
+		(at 67.564 118.11 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2948,6 +2977,12 @@
 		(uuid "86396980-c647-4d62-866d-e0bbf9c3dd3b")
 	)
 	(junction
+		(at 41.91 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eca4f93-d40c-4806-b1eb-c20ac95e3493")
+	)
+	(junction
 		(at 35.56 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2960,20 +2995,22 @@
 		(uuid "921bc96d-a63b-4511-946e-f440ccd1287f")
 	)
 	(junction
-		(at 41.91 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be5d804d-4c2f-48ec-9124-cbbebd8f6bf0")
-	)
-	(junction
 		(at 224.79 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f48d310a-9727-45d9-96a8-0d0da0e5cc5d")
 	)
+	(no_connect
+		(at 50.8 64.77)
+		(uuid "81dc58ca-a239-4b59-8ed1-c863af2e3982")
+	)
+	(no_connect
+		(at 30.48 64.77)
+		(uuid "d5953101-8de3-49da-b5e3-c21d9aa1efcb")
+	)
 	(wire
 		(pts
-			(xy 35.56 166.37) (xy 35.56 165.1)
+			(xy 35.56 179.07) (xy 35.56 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2983,17 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 162.56) (xy 41.91 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab75435-6e53-442b-8c9f-7509ff0b3f39")
-	)
-	(wire
-		(pts
-			(xy 100.33 69.85) (xy 107.95 69.85)
+			(xy 135.89 62.23) (xy 143.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3080,16 +3107,6 @@
 			(type default)
 		)
 		(uuid "42a99d4b-166e-4f11-9f57-fbf14a486fa9")
-	)
-	(wire
-		(pts
-			(xy 41.91 154.94) (xy 41.91 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc057d1-6c15-4d28-8e84-66a054a58a37")
 	)
 	(wire
 		(pts
@@ -3243,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 165.1) (xy 41.91 165.1)
+			(xy 35.56 177.8) (xy 41.91 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 72.39) (xy 107.95 72.39)
+			(xy 135.89 64.77) (xy 143.51 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3303,13 +3320,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 165.1) (xy 41.91 170.18)
+			(xy 41.91 177.8) (xy 41.91 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8f13c10-a15b-48df-ab18-1b917470a610")
+	)
+	(wire
+		(pts
+			(xy 41.91 154.94) (xy 41.91 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da29cb0f-2f5d-4a0f-b51e-e36cc161624e")
 	)
 	(wire
 		(pts
@@ -3363,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 171.45) (xy 35.56 173.99)
+			(xy 35.56 184.15) (xy 35.56 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3380,6 +3407,16 @@
 			(type default)
 		)
 		(uuid "f3496240-6e7e-469d-b9cc-e83fcfe554d8")
+	)
+	(wire
+		(pts
+			(xy 41.91 172.72) (xy 41.91 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39870c1-cb15-4570-a364-aa7be0904c4b")
 	)
 	(wire
 		(pts
@@ -3432,7 +3469,7 @@
 		(uuid "fb962b4f-26ba-47a0-b4c1-f383831315b0")
 	)
 	(label "GPIO1"
-		(at 100.33 69.85 0)
+		(at 135.89 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3472,7 +3509,7 @@
 		(uuid "29470805-f26a-49b9-82d3-6edd3e453cc0")
 	)
 	(label "+12V"
-		(at 41.91 170.18 0)
+		(at 41.91 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3492,7 +3529,7 @@
 		(uuid "9be32499-dfa0-4775-8525-7a59b01d13cc")
 	)
 	(label "GPIO2"
-		(at 100.33 72.39 0)
+		(at 135.89 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3570,85 +3607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 41.91 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1778442b-c1ce-4eb2-8bc3-1903c6ecdd76")
-		(property "Reference" "L1"
-			(at 43.18 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100uH"
-			(at 43.18 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 41.91 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22463856"
-			(at 41.91 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3abcbd4-6f2a-4469-a39c-93bd73db41ea")
-		)
-		(pin "2"
-			(uuid "aa24653b-4330-44c6-95b7-9e5aeb807f1e")
-		)
-		(instances
-			(project ""
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 35.56 139.7 0)
 		(unit 1)
@@ -3675,7 +3633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD16.0-L17.0-W17.0-FD"
 			(at 35.56 139.7 0)
 			(effects
 				(font
@@ -3932,7 +3890,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 35.56 168.91 0)
+		(at 35.56 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3940,7 +3898,7 @@
 		(dnp no)
 		(uuid "536008ef-9c4f-427c-acf7-547dd30ad711")
 		(property "Reference" "Cout1"
-			(at 26.67 166.878 0)
+			(at 26.67 179.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3907,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 26.67 169.418 0)
+			(at 26.67 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,8 +3915,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 35.56 168.91 0)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-FD"
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 168.91 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3934,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 35.56 168.91 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,6 +3952,102 @@
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
 					(reference "Cout1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SL1050-101M")
+		(at 41.91 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "574c6e7c-550b-4b32-b211-52bc6d9588b3")
+		(property "Reference" "L2"
+			(at 25.146 165.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SL1050-101M"
+			(at 25.146 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L11.5-W10.5"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22463847.pdf"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "台湾陆海"
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SL1050-101M"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22463847"
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbe91ef0-eaf8-4e17-a25f-caa775ac1425")
+		)
+		(pin "1"
+			(uuid "3381738a-97b8-4b98-9331-c7bb890aef81")
+		)
+		(instances
+			(project ""
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4319,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
-		(at 123.19 85.09 0)
+		(at 158.75 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4274,7 +4328,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b759eaa-afd7-48eb-8c67-8b9ddb0c73c4")
 		(property "Reference" "U1"
-			(at 125.3333 54.61 0)
+			(at 160.8933 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4337,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 125.3333 57.15 0)
+			(at 160.8933 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
-			(at 123.19 82.55 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 123.19 85.09 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4364,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 123.19 85.09 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 173.99 0)
+		(at 35.56 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4867,7 +4921,7 @@
 		(fields_autoplaced yes)
 		(uuid "bafc965f-eefb-453c-b386-606a9d03381b")
 		(property "Reference" "#PWR012"
-			(at 35.56 180.34 0)
+			(at 35.56 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 179.07 0)
+			(at 35.56 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 173.99 0)
+			(at 35.56 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 173.99 0)
+			(at 35.56 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +4956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 173.99 0)
+			(at 35.56 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 113.03 0)
+		(at 158.75 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5046,7 +5100,7 @@
 		(fields_autoplaced yes)
 		(uuid "c31d36e4-2f58-48de-b2ed-66c8d9ecbd5d")
 		(property "Reference" "#PWR01"
-			(at 123.19 119.38 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 118.11 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 113.03 0)
+			(at 158.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 113.03 0)
+			(at 158.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 113.03 0)
+			(at 158.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
