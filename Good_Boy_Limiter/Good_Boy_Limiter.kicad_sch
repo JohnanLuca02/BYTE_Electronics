@@ -4814,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 259.08 148.082 90)
 			(effects
 				(font
@@ -4833,6 +4833,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17630"
 			(at 259.08 149.86 0)
 			(effects
 				(font
@@ -5169,7 +5178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 62.23 67.31 0)
 			(effects
 				(font
@@ -5188,6 +5197,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17415"
 			(at 62.23 67.31 0)
 			(effects
 				(font
@@ -5698,7 +5716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 172.72 145.542 90)
 			(effects
 				(font
@@ -5717,6 +5735,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17630"
 			(at 172.72 147.32 0)
 			(effects
 				(font
@@ -6388,10 +6415,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c4910b1-0fc8-41c5-bf33-f048f4ada33d")
+			(uuid "2c4910b1-0fc8-41c5-bf33-f048f4ada33e")
 		)
 		(pin "2"
-			(uuid "38f32f14-645c-49f2-841f-e79870290908")
+			(uuid "38f32f14-645c-49f2-841f-e79870290909")
 		)
 		(instances
 			(project ""
