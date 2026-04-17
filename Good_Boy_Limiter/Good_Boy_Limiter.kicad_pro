@@ -588,6 +588,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -625,6 +637,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -641,6 +661,14 @@
     [
       "e6249df1-5b78-4b75-b804-4c6c30b1afc2",
       "Root"
+    ],
+    [
+      "fdc3caad-3f6e-4f98-8bad-cdd7282ecf49",
+      "USB Communication"
+    ],
+    [
+      "f1281d8f-a733-418e-b8ca-9597c2e2e6ed",
+      "DC-DC Buck 12V-3V3"
     ]
   ],
   "text_variables": {}
