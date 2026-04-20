@@ -669,6 +669,10 @@
     [
       "e25ef491-3985-43c7-ad31-21da61bf3ee1",
       "3V3 Selector"
+    ],
+    [
+      "4d476f64-b5df-4606-9f4c-d9d43b4f1fdc",
+      "Voltage Sensing Modules"
     ]
   ],
   "text_variables": {}
