@@ -4808,7 +4808,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 46.99) (xy 207.01 46.99)
+			(xy 200.66 46.99) (xy 209.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5218,7 +5218,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 49.53) (xy 207.01 49.53)
+			(xy 200.66 49.53) (xy 209.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5295,6 +5295,16 @@
 			(type default)
 		)
 		(uuid "84d5929d-8e8b-4852-960f-45508a5d05e5")
+	)
+	(wire
+		(pts
+			(xy 220.98 46.99) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e74475-eff5-4fab-8b37-fda1f76fd838")
 	)
 	(wire
 		(pts
@@ -5718,6 +5728,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 49.53) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47e3a68-bf19-4036-9afb-144af3c581fe")
+	)
+	(wire
+		(pts
 			(xy 152.4 62.23) (xy 152.4 63.5)
 		)
 		(stroke
@@ -6006,16 +6026,6 @@
 		)
 		(uuid "268d5a3d-c044-4d2e-ab29-9ca90d24770f")
 	)
-	(label "D-"
-		(at 207.01 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27bf41a0-02b6-4879-90ba-5d927954b5b3")
-	)
 	(label "GPIO0"
 		(at 162.56 41.91 0)
 		(effects
@@ -6146,6 +6156,16 @@
 		)
 		(uuid "5384aedf-7b97-4eee-9f65-de775d8d07f3")
 	)
+	(label "D-"
+		(at 220.98 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55958893-2c27-416c-823a-0bef1e2c9d27")
+	)
 	(label "+12V"
 		(at 41.91 182.88 0)
 		(effects
@@ -6215,6 +6235,16 @@
 			(justify left bottom)
 		)
 		(uuid "7fefa64c-97ad-471f-ac9b-8ef64a5d81f0")
+	)
+	(label "D+"
+		(at 220.98 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "862e1dbe-02c7-444c-9bc2-a9dc49563a26")
 	)
 	(label "5VUSB"
 		(at 176.53 113.03 0)
@@ -6355,16 +6385,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef52827a-ccab-41a4-96f0-f8344442a7cc")
-	)
-	(label "D+"
-		(at 207.01 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4ef081c-d327-4a93-ac22-02a78c5728fe")
 	)
 	(label "GPIO6"
 		(at 269.24 113.03 180)
@@ -9861,6 +9881,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 212.09 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90e2caa-e740-4c30-b88a-43416500dbbb")
+		(property "Reference" "R19"
+			(at 212.09 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 212.09 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C174144"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fba643c3-3731-4670-bf48-a79dd81b99f4")
+		)
+		(pin "2"
+			(uuid "390d3b83-8376-412e-97f5-ecd5f7e22f96")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 74.93 0)
 		(unit 1)
@@ -10108,6 +10205,82 @@
 			(project ""
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 212.09 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be18c84e-4fc9-496b-9c63-df2df91d449e")
+		(property "Reference" "R20"
+			(at 212.09 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 212.09 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C174144"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7903b78-ccdd-47e5-a1fd-f128450aec5a")
+		)
+		(pin "2"
+			(uuid "7e6ccb15-2aac-4dfd-9eb2-d5b7e934beb1")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "R20")
 					(unit 1)
 				)
 			)
