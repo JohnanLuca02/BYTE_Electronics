@@ -2092,15 +2092,15 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 124.46 77.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84c48d85-f6d4-4dee-b22c-b960cc050582")
 		(property "Reference" "C8"
-			(at 128.27 76.1999 0)
+			(at 132.334 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +2109,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 128.27 78.7399 0)
+			(at 132.334 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2118,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 125.4252 81.28 0)
+			(at 123.4948 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

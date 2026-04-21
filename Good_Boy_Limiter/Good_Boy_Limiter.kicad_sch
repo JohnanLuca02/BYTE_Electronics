@@ -6096,6 +6096,16 @@
 		)
 		(uuid "32766ea1-4324-4b73-9a70-91e6d2992e08")
 	)
+	(label "Drain"
+		(at 73.66 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3815d069-b00d-4b01-9a70-1002af2078ec")
+	)
 	(label "SCL"
 		(at 162.56 64.77 0)
 		(effects
