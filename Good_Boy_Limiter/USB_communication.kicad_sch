@@ -1151,6 +1151,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ESD Protection\n"
+		(exclude_from_sim no)
+		(at 84.582 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76a9241c-bb3f-408d-95f9-b1a0f2ce761e")
+	)
 	(junction
 		(at 105.41 55.88)
 		(diameter 0)
