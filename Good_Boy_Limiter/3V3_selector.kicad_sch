@@ -1471,6 +1471,16 @@
 		)
 		(uuid "78e6ac52-5845-4c32-8fbf-24ffe1ad13ca")
 	)
+	(label "LX"
+		(at 119.38 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5fb47f8-c264-41f8-bee7-7536ee2ecf6d")
+	)
 	(label "3V3"
 		(at 147.32 58.42 180)
 		(effects
@@ -1949,7 +1959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 157.48 58.42 0)
 			(effects
 				(font

@@ -273,33 +273,51 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BZX84Cxx"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Diode:BAT54S"
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 3.81 0)
+				(at 2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "BZX84Cxx"
-				(at 0 -3.81 0)
+			(property "Value" "BAT54S"
+				(at -6.35 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.905 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+				(at -3.048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -308,25 +326,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "300mW Zener Diode, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
+			(property "ki_keywords" "schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -344,22 +344,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BZX84Cxx_0_1"
+			(symbol "BAT54S_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
 					)
 					(stroke
 						(width 0)
@@ -371,10 +359,177 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -3.81 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 4.445 1.016)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -382,11 +537,29 @@
 					)
 				)
 			)
-			(symbol "BZX84Cxx_1_1"
+			(symbol "BAT54S_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -401,11 +574,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 1.27 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -413,24 +585,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -824,34 +978,46 @@
 		(uuid "e3c19907-6fe9-492b-8849-9e124977ca99")
 	)
 	(junction
+		(at 176.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ab390d-d75e-465e-be6e-5730b19680ea")
+	)
+	(junction
+		(at 233.68 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2335ff5c-0614-42a3-bb80-81da6851912a")
+	)
+	(junction
 		(at 195.58 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26a792e6-13e4-418e-a90d-223c569182d2")
 	)
 	(junction
-		(at 252.73 59.69)
+		(at 49.53 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e4b8b69-524e-4dd7-b737-9ff134499be1")
+		(uuid "2fbaba33-3a65-4eef-bf6c-6fe6a6c9b882")
 	)
 	(junction
-		(at 195.58 59.69)
+		(at 114.3 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5aefbc9d-71fb-4262-9d07-c87ca733e08f")
-	)
-	(junction
-		(at 68.58 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b3f49fc-1319-4135-af12-38f74b1ee3c9")
+		(uuid "3af01b8f-c747-4595-a997-a1226364897f")
 	)
 	(junction
 		(at 252.73 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c2b599d-1fd3-43e0-8d22-d082b5bff558")
+	)
+	(junction
+		(at 68.58 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a88c4f-be16-48c5-aa0f-b8d1321672ff")
 	)
 	(junction
 		(at 114.3 72.39)
@@ -884,34 +1050,22 @@
 		(uuid "991e105c-6a56-4393-bac4-5ba7d8983f02")
 	)
 	(junction
-		(at 233.68 59.69)
+		(at 133.35 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e84d80c-7b03-4dbc-95a3-cd889f84b58f")
+		(uuid "a9872101-580a-4dd3-b63f-9e602cae563e")
 	)
 	(junction
-		(at 114.3 59.69)
+		(at 195.58 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2c88a7e-78b1-4fe0-a361-84f4b2f5bb0a")
+		(uuid "b66f083f-5ce1-45f9-8ba7-5de3d1001aad")
 	)
 	(junction
 		(at 176.53 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba0a7328-0b0a-4d64-8a11-0da0575a699a")
-	)
-	(junction
-		(at 49.53 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba43cdd3-9889-429d-99a9-cbcd54d68daa")
-	)
-	(junction
-		(at 133.35 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c296ecb9-5e51-4eef-aae4-369634f361ce")
 	)
 	(junction
 		(at 176.53 48.26)
@@ -932,16 +1086,16 @@
 		(uuid "ce0ab6c4-8771-4acf-a94c-8a8e17a99614")
 	)
 	(junction
-		(at 176.53 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d311f274-e44e-4364-83b4-c1365e4ba946")
-	)
-	(junction
 		(at 49.53 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7aed73d-c8a9-4697-a3d2-e0cccab03fc2")
+	)
+	(junction
+		(at 252.73 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75166f2-5ba9-4635-975a-6bd01cdd908b")
 	)
 	(no_connect
 		(at 125.73 92.71)
@@ -981,16 +1135,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 59.69) (xy 119.38 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f2f7e9a-bd29-439f-8749-e88e8ece8548")
-	)
-	(wire
-		(pts
 			(xy 121.92 48.26) (xy 114.3 48.26)
 		)
 		(stroke
@@ -1001,17 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 59.69) (xy 68.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191a92fe-438a-43b1-ab4a-c17a902de06c")
-	)
-	(wire
-		(pts
-			(xy 49.53 59.69) (xy 49.53 72.39)
+			(xy 49.53 48.26) (xy 49.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1021,13 +1155,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 72.39)
+			(xy 68.58 48.26) (xy 68.58 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e404526-8ddf-4ebb-b59b-4546e1d8d6b0")
+		(uuid "1fdd3e6c-4a2d-44bf-a69e-e491abaf6748")
 	)
 	(wire
 		(pts
@@ -1051,6 +1185,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 52.07) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b61d52d-659e-4811-92db-88ef8391396c")
+	)
+	(wire
+		(pts
 			(xy 176.53 83.82) (xy 176.53 90.17)
 		)
 		(stroke
@@ -1058,6 +1202,26 @@
 			(type default)
 		)
 		(uuid "2ba45a5d-489e-47b6-8680-49480f648cc5")
+	)
+	(wire
+		(pts
+			(xy 27.94 29.21) (xy 34.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3171fa4d-b613-4a87-bb82-0b57aa1d595a")
+	)
+	(wire
+		(pts
+			(xy 185.42 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4083e444-ee24-4ed1-8c7a-5f627f47e3dd")
 	)
 	(wire
 		(pts
@@ -1071,13 +1235,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 59.69) (xy 176.53 72.39)
+			(xy 121.92 52.07) (xy 133.35 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e8e5ece-8fdc-4a76-90dc-d2bb0b8e6b65")
+		(uuid "559b2f8e-2a61-4fe4-aa02-aa1b71045b6a")
 	)
 	(wire
 		(pts
@@ -1091,6 +1255,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 48.26) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58021a6b-2498-4911-a46b-fa3ddcd9fe94")
+	)
+	(wire
+		(pts
 			(xy 127 72.39) (xy 133.35 72.39)
 		)
 		(stroke
@@ -1101,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 133.35 72.39)
+			(xy 133.35 48.26) (xy 133.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1121,26 +1295,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 48.26) (xy 233.68 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b280201-a820-46b8-8166-8a1e75e6c753")
-	)
-	(wire
-		(pts
-			(xy 252.73 59.69) (xy 252.73 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d773b55-99c5-4d2e-bc0c-c84202ee7cb9")
-	)
-	(wire
-		(pts
 			(xy 233.68 83.82) (xy 233.68 90.17)
 		)
 		(stroke
@@ -1151,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 59.69) (xy 114.3 72.39)
+			(xy 114.3 48.26) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1201,13 +1355,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 59.69) (xy 252.73 59.69)
+			(xy 58.42 53.34) (xy 68.58 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f27a01f-f286-40cd-babb-56ad0d945f84")
+		(uuid "6fcc8e9b-aaf8-4eea-8248-bcd335def4db")
 	)
 	(wire
 		(pts
@@ -1231,33 +1385,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 48.26) (xy 68.58 59.69)
+			(xy 176.53 59.69) (xy 176.53 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7929fb2e-8133-44df-aee4-1e2951705b1b")
+		(uuid "7b194a25-f92d-42f0-bf5c-293429f0f365")
 	)
 	(wire
 		(pts
-			(xy 252.73 48.26) (xy 252.73 59.69)
+			(xy 252.73 48.26) (xy 252.73 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c062e22-6abb-48c0-acce-1be27338a996")
-	)
-	(wire
-		(pts
-			(xy 49.53 48.26) (xy 49.53 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fcab4fb-9e8f-4e91-bd3c-c94f9606eb44")
 	)
 	(wire
 		(pts
@@ -1271,43 +1415,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 238.76 59.69)
+			(xy 233.68 60.96) (xy 233.68 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84dae728-c135-4276-babb-6f2b96f31e80")
-	)
-	(wire
-		(pts
-			(xy 133.35 48.26) (xy 133.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a90873-c6ac-4f2c-9d93-f7fb7f7125d9")
-	)
-	(wire
-		(pts
-			(xy 189.23 59.69) (xy 195.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3cfac4-684b-4394-aa27-510e99d35721")
-	)
-	(wire
-		(pts
-			(xy 127 59.69) (xy 133.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cdf5450-d452-427d-b921-0be851ba104e")
+		(uuid "89407885-e3c3-444b-9525-4bc35c76f0a0")
 	)
 	(wire
 		(pts
@@ -1351,6 +1465,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f7b737-c62c-43f8-acf8-b6e4f7296ff9")
+	)
+	(wire
+		(pts
+			(xy 252.73 53.34) (xy 252.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9880e12f-2db8-49c6-ad55-2bd88972d414")
+	)
+	(wire
+		(pts
 			(xy 49.53 72.39) (xy 49.53 76.2)
 		)
 		(stroke
@@ -1361,13 +1495,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 59.69) (xy 181.61 59.69)
+			(xy 121.92 67.31) (xy 125.73 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bbeb1cc-307a-45aa-8c5f-06161d7456f3")
+		(uuid "9acfeb16-33c3-45d5-a6d7-b511f7b68074")
+	)
+	(wire
+		(pts
+			(xy 237.49 60.96) (xy 233.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0f7e5c-691e-4926-b26d-4dc70134abc0")
+	)
+	(wire
+		(pts
+			(xy 242.57 53.34) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed49624-fa25-4698-8b81-21e7b95403eb")
 	)
 	(wire
 		(pts
@@ -1381,13 +1535,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 54.61 59.69)
+			(xy 195.58 52.07) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8dd2946-87fe-49a3-aa55-6868be2bf03b")
+		(uuid "a661f769-5ce7-41f6-8259-53732c4eb2b0")
 	)
 	(wire
 		(pts
@@ -1411,13 +1565,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 48.26) (xy 195.58 59.69)
+			(xy 49.53 60.96) (xy 49.53 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afc39bff-d88f-48d0-aa39-6d73b311ee5a")
+		(uuid "afd57963-fdca-4144-9b32-05c082caf742")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4117a58-ac82-4c30-95de-224fef36365f")
 	)
 	(wire
 		(pts
@@ -1428,6 +1592,16 @@
 			(type default)
 		)
 		(uuid "b5bb3763-17a3-43ce-9c0e-86520a33fa0a")
+	)
+	(wire
+		(pts
+			(xy 242.57 68.58) (xy 246.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6282610-d436-44e7-8367-01eb27e9c2f4")
 	)
 	(wire
 		(pts
@@ -1471,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 233.68 72.39)
+			(xy 233.68 48.26) (xy 233.68 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1531,13 +1705,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 114.3 59.69)
+			(xy 49.53 60.96) (xy 53.34 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d884c43d-5290-4a4c-8080-040ad3f75e27")
+		(uuid "d89b05b4-5754-4abc-aff7-8599ab7dbd7f")
 	)
 	(wire
 		(pts
@@ -1548,6 +1722,16 @@
 			(type default)
 		)
 		(uuid "ddee32fd-1c03-4220-9689-662c1303128a")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28d599c-031d-414e-8ec5-f781523106ee")
 	)
 	(wire
 		(pts
@@ -1571,16 +1755,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 59.69) (xy 195.58 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8988fa9-8408-44b1-a246-79d15e8b2e1b")
-	)
-	(wire
-		(pts
 			(xy 62.23 48.26) (xy 68.58 48.26)
 		)
 		(stroke
@@ -1601,6 +1775,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 59.69) (xy 180.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f139366f-3880-4432-b915-fbd6c76ffdba")
+	)
+	(wire
+		(pts
 			(xy 60.96 90.17) (xy 49.53 90.17)
 		)
 		(stroke
@@ -1608,6 +1792,16 @@
 			(type default)
 		)
 		(uuid "f1bd3c49-d804-47bd-b887-860a38124024")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e88dff-ce97-462d-9a17-4b15d3764fbb")
 	)
 	(wire
 		(pts
@@ -1631,6 +1825,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc68c74-7a29-4fda-84d8-8d96013806e9")
+	)
+	(wire
+		(pts
 			(xy 181.61 72.39) (xy 176.53 72.39)
 		)
 		(stroke
@@ -1649,6 +1853,16 @@
 		)
 		(uuid "32d086aa-2335-4d82-bbd2-b9f565017132")
 	)
+	(label "3V3"
+		(at 189.23 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46869d92-b833-4f18-aa8a-7ae407764018")
+	)
 	(label "V_Sensing3"
 		(at 176.53 88.9 0)
 		(effects
@@ -1658,6 +1872,36 @@
 			(justify left bottom)
 		)
 		(uuid "538654cb-6119-4237-ba9c-023419be4c5b")
+	)
+	(label "3V3"
+		(at 246.38 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82acd8ee-e5e0-4ea4-95c3-974684451355")
+	)
+	(label "3V3"
+		(at 62.23 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a6cdd9c-b0d1-447e-8480-8afdb0648d1e")
+	)
+	(label "3V3"
+		(at 34.29 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "918f37e8-84ee-4bb1-b6b4-ed86348053f7")
 	)
 	(label "V_Sensing1"
 		(at 49.53 88.9 0)
@@ -1679,7 +1923,17 @@
 		)
 		(uuid "abafb293-9059-4ede-bad7-8513b495cf2f")
 	)
-	(hierarchical_label "GPIO2"
+	(label "3V3"
+		(at 125.73 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f72e3447-e435-46c7-93cb-2aee39e18765")
+	)
+	(hierarchical_label "GPIO11"
 		(shape input)
 		(at 114.3 43.18 180)
 		(effects
@@ -1690,7 +1944,7 @@
 		)
 		(uuid "22844c11-83e9-4b84-a9ba-a49fae39e173")
 	)
-	(hierarchical_label "GPIO1"
+	(hierarchical_label "GPIO10"
 		(shape input)
 		(at 49.53 43.18 180)
 		(effects
@@ -1701,7 +1955,7 @@
 		)
 		(uuid "3548e76f-d67f-4294-b7ae-4e4a3336c5dd")
 	)
-	(hierarchical_label "GPIO4"
+	(hierarchical_label "GPIO13"
 		(shape input)
 		(at 233.68 43.18 180)
 		(effects
@@ -1712,7 +1966,7 @@
 		)
 		(uuid "3f749a0c-2926-49d4-a3a6-ada3316f83ae")
 	)
-	(hierarchical_label "GPIO3"
+	(hierarchical_label "GPIO12"
 		(shape input)
 		(at 176.53 43.18 180)
 		(effects
@@ -1722,6 +1976,100 @@
 			(justify right)
 		)
 		(uuid "93e56c23-2890-4720-862b-3d1c6b319c5e")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 27.94 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2cc41f3-63fd-41a7-a7fa-c2feeef8e1ea")
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 121.92 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06386d2b-8dfb-45a9-a9d7-c7f37a7c834d")
+		(property "Reference" "D13"
+			(at 124.46 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 124.46 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 125.095 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 121.92 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83935"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fd1397be-0b51-45dc-914d-b1c568de306d")
+		)
+		(pin "1"
+			(uuid "1040f67f-7b9e-453c-bea0-6fbbffa2dba5")
+		)
+		(pin "2"
+			(uuid "5ceb1605-938a-4666-a44a-9e4e65ea5f06")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1817,7 +2165,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 80.01 180)
+		(at 123.19 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1825,7 +2173,7 @@
 		(dnp no)
 		(uuid "0dd87332-07b8-49ce-b54d-7983373fc466")
 		(property "Reference" "R4"
-			(at 118.364 78.486 0)
+			(at 122.936 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +2181,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 118.872 80.772 0)
+			(at 122.936 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +2189,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 116.078 80.01 90)
+			(at 123.19 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +2198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 80.01 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2207,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 80.01 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +2216,7 @@
 			)
 		)
 		(property "LCSC Part" "C177333"
-			(at 114.3 80.01 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +2225,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 114.3 80.01 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +2233,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 114.3 80.01 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,6 +2316,89 @@
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 185.42 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195ac85f-dfe8-4c0f-a88b-c2f38106c1ab")
+		(property "Reference" "D14"
+			(at 187.96 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 187.96 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 188.595 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 185.42 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83935"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "60e52431-a164-444f-b449-6da7eeb603ab")
+		)
+		(pin "1"
+			(uuid "7a51fa73-eed8-4a58-be76-1fc30103b106")
+		)
+		(pin "2"
+			(uuid "8a3ab73d-a8b3-4773-a4e4-824645e89438")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2107,7 +2538,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 233.68 80.01 180)
+		(at 242.57 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2115,7 +2546,7 @@
 		(dnp no)
 		(uuid "58f931aa-ffcb-42df-9f8a-cb128766eed4")
 		(property "Reference" "R17"
-			(at 237.744 78.486 0)
+			(at 242.316 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2554,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 238.252 80.772 0)
+			(at 242.316 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2562,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 235.458 80.01 90)
+			(at 242.57 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 80.01 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2580,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 233.68 80.01 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2589,7 @@
 			)
 		)
 		(property "LCSC Part" "C177333"
-			(at 233.68 80.01 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +2598,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 233.68 80.01 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2606,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 233.68 80.01 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,6 +2623,89 @@
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 58.42 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6008d704-b016-47e1-bf5d-e3f12086e8ae")
+		(property "Reference" "D12"
+			(at 60.96 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 60.96 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 61.595 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 58.42 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83935"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "31ecf834-bf7f-4207-8eeb-2bc5cd8033da")
+		)
+		(pin "1"
+			(uuid "04857135-9b1c-4b84-b933-27f82a74381c")
+		)
+		(pin "2"
+			(uuid "3a73aa14-2953-4725-88f0-a246c4dd7952")
+		)
+		(instances
+			(project ""
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2562,198 +3076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZX84Cxx")
-		(at 242.57 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86217af9-b578-4908-9df3-a434bd35b5ec")
-		(property "Reference" "D9"
-			(at 242.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85087"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "d32eb3b0-33f3-45be-9d20-121a048664c9")
-		)
-		(pin "1"
-			(uuid "9e77172e-fd58-424d-a68e-5d2039df50e2")
-		)
-		(pin "2"
-			(uuid "f6806d46-dc8c-45cb-96a5-199337dc4d4b")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZX84Cxx")
-		(at 185.42 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9451644a-144d-4836-a35d-3b66caf879aa")
-		(property "Reference" "D6"
-			(at 185.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 185.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85087"
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 185.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "11d85c5d-ae4a-4b5a-b161-9a8531105f20")
-		)
-		(pin "1"
-			(uuid "1f67b0a4-fe3e-4835-9c13-6b340bfb9891")
-		)
-		(pin "2"
-			(uuid "b2773a6d-61ee-4df6-bb35-fe9715e10e17")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:B3B-XH-A")
 		(at 66.04 92.71 90)
 		(unit 1)
@@ -2871,7 +3193,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 80.01 180)
+		(at 58.42 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2879,7 +3201,7 @@
 		(dnp no)
 		(uuid "a0fab17a-45f5-4d9c-b91d-ec175ac1ad5d")
 		(property "Reference" "R2"
-			(at 53.594 78.486 0)
+			(at 58.42 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,289 +3209,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 54.102 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 51.308 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C177333"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "81b22291-e564-4ccc-affe-8ad6768e1046")
-		)
-		(pin "1"
-			(uuid "7baf56a7-29d0-4bff-86cc-36a285b477b6")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 242.57 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a96e99ca-00f2-4be3-88fa-07fdd3a2aa02")
-		(property "Reference" "R18"
-			(at 242.57 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 242.57 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 242.57 70.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 242.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25803"
-			(at 242.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 242.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 242.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7893c6c1-6997-4c19-af91-14a0e81f3eb5")
-		)
-		(pin "1"
-			(uuid "4b4daa83-b424-465a-b35f-5fb07ac26e72")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZX84Cxx")
-		(at 123.19 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad5e7a75-d5d6-4c1a-bba0-a5b8687edaa9")
-		(property "Reference" "D3"
-			(at 123.19 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85087"
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7667b009-6525-4f4f-83d9-e73cade7bde4")
-		)
-		(pin "1"
-			(uuid "0caa01b5-9d97-43f8-8469-b6e864afdba2")
-		)
-		(pin "2"
-			(uuid "10074180-d67d-49bb-a679-ab6ab361ef41")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adc939d4-c12f-4c2c-ad83-ef34553298ae")
-		(property "Reference" "R1"
-			(at 58.42 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 58.42 68.58 90)
+			(at 58.42 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25803"
+		(property "LCSC Part" "C177333"
 			(at 58.42 72.39 0)
 			(effects
 				(font
@@ -3222,6 +3262,196 @@
 		)
 		(property "Sim.Type" ""
 			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "81b22291-e564-4ccc-affe-8ad6768e1046")
+		)
+		(pin "1"
+			(uuid "7baf56a7-29d0-4bff-86cc-36a285b477b6")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a96e99ca-00f2-4be3-88fa-07fdd3a2aa02")
+		(property "Reference" "R18"
+			(at 236.22 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 236.22 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 231.902 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25803"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7893c6c1-6997-4c19-af91-14a0e81f3eb5")
+		)
+		(pin "1"
+			(uuid "4b4daa83-b424-465a-b35f-5fb07ac26e72")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc939d4-c12f-4c2c-ad83-ef34553298ae")
+		(property "Reference" "R1"
+			(at 52.07 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 52.07 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 47.752 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25803"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3633,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.42 72.39 270)
+		(at 176.53 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3412,23 +3642,25 @@
 		(fields_autoplaced yes)
 		(uuid "c455a858-593f-4584-abc3-dc334c948576")
 		(property "Reference" "R16"
-			(at 185.42 66.04 90)
+			(at 179.07 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100k"
-			(at 185.42 68.58 90)
+			(at 179.07 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 70.612 90)
+			(at 174.752 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 72.39 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3678,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 185.42 72.39 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3687,7 @@
 			)
 		)
 		(property "LCSC Part" "C25803"
-			(at 185.42 72.39 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3696,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 185.42 72.39 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3704,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 185.42 72.39 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,104 +4001,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZX84Cxx")
-		(at 58.42 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e34cb5be-b27d-40a2-9e3b-2ec859bc44cb")
-		(property "Reference" "D1"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 58.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C85087"
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3aa76f55-edc0-428d-9f40-4c057e3e5a40")
-		)
-		(pin "1"
-			(uuid "e87986d4-52ea-4305-b482-e92e4953cea9")
-		)
-		(pin "2"
-			(uuid "b4c53076-45b6-4e42-9231-d39619c57f29")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 176.53 80.01 180)
+		(at 185.42 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3874,7 +4010,7 @@
 		(dnp no)
 		(uuid "e3b763f1-b255-44c9-9435-11bab8eb93c8")
 		(property "Reference" "R15"
-			(at 180.594 78.486 0)
+			(at 184.912 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4018,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 181.102 80.772 0)
+			(at 185.166 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +4026,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 178.308 80.01 90)
+			(at 185.42 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +4035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 80.01 0)
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +4044,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 80.01 0)
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +4053,7 @@
 			)
 		)
 		(property "LCSC Part" "C177333"
-			(at 176.53 80.01 0)
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4062,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 176.53 80.01 0)
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4070,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 176.53 80.01 0)
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4094,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 72.39 270)
+		(at 114.3 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3967,23 +4103,25 @@
 		(fields_autoplaced yes)
 		(uuid "e68cef67-8ec1-45ef-80d0-df6be9959d00")
 		(property "Reference" "R12"
-			(at 123.19 66.04 90)
+			(at 116.84 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100k"
-			(at 123.19 68.58 90)
+			(at 116.84 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 70.612 90)
+			(at 112.522 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4139,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4148,7 @@
 			)
 		)
 		(property "LCSC Part" "C25803"
-			(at 123.19 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4157,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 123.19 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +4165,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 123.19 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,6 +4340,89 @@
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 242.57 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe6c27a3-c31b-4767-923d-559c2f3d4144")
+		(property "Reference" "D15"
+			(at 245.11 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 245.11 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 245.745 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 242.57 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 242.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83935"
+			(at 242.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7a2dab12-576e-4f81-8768-d173b01e6b3a")
+		)
+		(pin "1"
+			(uuid "735a4dc7-ffb6-4695-b3d9-c0a6538ac5d4")
+		)
+		(pin "2"
+			(uuid "1b0b8cc3-fd13-4b65-ba20-9d36a588bf60")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2/4d476f64-b5df-4606-9f4c-d9d43b4f1fdc"
+					(reference "D15")
 					(unit 1)
 				)
 			)

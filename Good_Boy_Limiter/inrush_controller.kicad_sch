@@ -2846,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD16.0-L17.0-W17.0-FD"
 			(at 212.09 64.77 0)
 			(effects
 				(font
