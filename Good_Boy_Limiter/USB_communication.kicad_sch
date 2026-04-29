@@ -1870,6 +1870,14 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af43f888-ec74-40b0-8e06-a29839cc5f90")
 		)
@@ -2016,6 +2024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2247,6 +2263,14 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af43f888-ec74-40b0-8e06-a29839cc5f91")
 		)
@@ -2410,6 +2434,14 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 105.41 71.12 0)
 			(effects
 				(font
