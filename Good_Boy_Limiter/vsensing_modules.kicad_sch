@@ -1933,7 +1933,7 @@
 		)
 		(uuid "f72e3447-e435-46c7-93cb-2aee39e18765")
 	)
-	(hierarchical_label "GPIO11"
+	(hierarchical_label "Vsens2"
 		(shape input)
 		(at 114.3 43.18 180)
 		(effects
@@ -1944,7 +1944,7 @@
 		)
 		(uuid "22844c11-83e9-4b84-a9ba-a49fae39e173")
 	)
-	(hierarchical_label "GPIO10"
+	(hierarchical_label "Vsens1"
 		(shape input)
 		(at 49.53 43.18 180)
 		(effects
@@ -1955,7 +1955,7 @@
 		)
 		(uuid "3548e76f-d67f-4294-b7ae-4e4a3336c5dd")
 	)
-	(hierarchical_label "GPIO13"
+	(hierarchical_label "Vsens4"
 		(shape input)
 		(at 233.68 43.18 180)
 		(effects
@@ -1966,7 +1966,7 @@
 		)
 		(uuid "3f749a0c-2926-49d4-a3a6-ada3316f83ae")
 	)
-	(hierarchical_label "GPIO12"
+	(hierarchical_label "Vsens3"
 		(shape input)
 		(at 176.53 43.18 180)
 		(effects
