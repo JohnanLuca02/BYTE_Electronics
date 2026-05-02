@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "GBL (Good Boy Limiter)")
-		(date "2026-04-15")
+		(date "2026-05-01")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4449,12 +4449,6 @@
 		(uuid "363ac5dd-8925-4122-96c9-16459cf16e6e")
 	)
 	(junction
-		(at 269.24 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a4183b0-4749-4c30-a956-c7017eafd88e")
-	)
-	(junction
 		(at 185.42 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4507,6 +4501,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a350da-dd44-4db5-a3fb-1b4e2e67744f")
+	)
+	(junction
+		(at 269.24 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83369424-6491-4a8c-bb73-4ff6cac31232")
 	)
 	(junction
 		(at 50.8 115.57)
@@ -4585,12 +4585,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce1656f4-68a9-434c-9945-e4a3f00e74e7")
-	)
-	(junction
-		(at 269.24 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3fa3af3-9d3b-46ec-b257-05c282005e74")
 	)
 	(junction
 		(at 185.42 31.75)
@@ -5066,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 71.12) (xy 269.24 72.39)
+			(xy 269.24 54.61) (xy 269.24 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5246,16 +5240,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 63.5) (xy 271.78 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ddff1f-957b-4c3b-ab08-85763c945a34")
-	)
-	(wire
-		(pts
 			(xy 120.65 33.02) (xy 120.65 41.91)
 		)
 		(stroke
@@ -5346,16 +5330,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 63.5) (xy 269.24 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d3c82a-8b53-4511-9741-7430eb5440b2")
-	)
-	(wire
-		(pts
 			(xy 43.18 59.69) (xy 48.26 59.69)
 		)
 		(stroke
@@ -5416,7 +5390,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 34.29) (xy 269.24 39.37)
+			(xy 269.24 34.29) (xy 269.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5636,16 +5610,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 63.5) (xy 269.24 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850daf4f-de37-46ea-9b6a-206e3e48fd1b")
-	)
-	(wire
-		(pts
 			(xy 220.98 46.99) (xy 214.63 46.99)
 		)
 		(stroke
@@ -5856,16 +5820,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 71.12) (xy 269.24 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d532a79-eaab-4090-a85c-cb524258b98e")
-	)
-	(wire
-		(pts
 			(xy 127 73.66) (xy 127 74.93)
 		)
 		(stroke
@@ -6023,6 +5977,16 @@
 			(type default)
 		)
 		(uuid "b8ef0bb8-618b-4b8a-9d27-3f39ea14dbb5")
+	)
+	(wire
+		(pts
+			(xy 269.24 38.1) (xy 269.24 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97fc76f-2b89-42c8-a346-dc3b06f48072")
 	)
 	(wire
 		(pts
@@ -6506,6 +6470,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 43.18) (xy 46.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83ca5bd-b312-4ce6-b91b-903d2d89e549")
+	)
+	(wire
+		(pts
 			(xy 55.88 187.96) (xy 55.88 185.42)
 		)
 		(stroke
@@ -6764,7 +6738,7 @@
 		)
 		(uuid "4c6ca5b7-8b0f-4047-8b4b-743a68502a45")
 	)
-	(label "GPIO6"
+	(label "GPIO38"
 		(at 251.46 44.45 180)
 		(effects
 			(font
@@ -6933,6 +6907,16 @@
 			(justify right bottom)
 		)
 		(uuid "ade28bfc-dd6b-4af3-a7c3-44cc28c3dba7")
+	)
+	(label "GPIO2"
+		(at 46.99 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae77c7c6-c9df-4c14-a3cf-e70b9630fd54")
 	)
 	(label "5VUSB"
 		(at 157.48 111.76 0)
@@ -7779,34 +7763,31 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 276.86 67.31 90)
+		(at 260.35 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17c77fa8-cf0e-4dec-bacd-582a1c410dc5")
-		(property "Reference" "D16"
-			(at 280.67 67.6274 90)
+		(uuid "1483e0d1-8096-41e0-88eb-0a21e513631b")
+		(property "Reference" "D19"
+			(at 260.35 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 280.67 70.1674 90)
+			(at 260.604 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,7 +7796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7805,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7814,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +7823,7 @@
 			)
 		)
 		(property "LCSC Part" "C2297"
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7851,7 +7832,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7840,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 276.86 67.31 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,15 +7848,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd773a8e-84f7-4136-bde4-357b5f248849")
+			(uuid "8b9f59de-978e-4755-a4eb-bebbf112f8db")
 		)
 		(pin "2"
-			(uuid "a62e94bf-195d-4f5c-97a8-582af6bea4e4")
+			(uuid "354375db-4206-4303-a244-daf0803a5a9a")
 		)
 		(instances
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "D16")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -8102,7 +8083,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 274.32 63.5 90)
+		(at 266.7 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8111,7 +8092,7 @@
 		(fields_autoplaced yes)
 		(uuid "25ec14e5-daa9-4b5c-b32b-73703afdaa33")
 		(property "Reference" "R33"
-			(at 274.32 58.42 90)
+			(at 266.7 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8100,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.32 60.96 90)
+			(at 266.7 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8108,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 274.32 63.5 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8117,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 63.5 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +8126,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 274.32 63.5 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8135,7 @@
 			)
 		)
 		(property "LCSC Part" "C173697"
-			(at 274.32 63.5 0)
+			(at 266.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,6 +8793,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2913204"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -13331,6 +13321,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 256.54 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef5f5809-5fed-484d-99cf-d3a23be4ba25")
+		(property "Reference" "#PWR065"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a60176f3-c5bb-4fac-bc93-63ccdcfac789")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 86.36 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13891,6 +13947,16 @@
 		(pin "+48VIN" input
 			(at 38.1 39.37 0)
 			(uuid "740ede80-72f2-4b43-b665-7f0c1a4d74d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" input
+			(at 38.1 43.18 0)
+			(uuid "c49e0b10-f38d-4ea5-8c4b-b3806990741c")
 			(effects
 				(font
 					(size 1.27 1.27)
