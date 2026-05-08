@@ -9507,7 +9507,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
-		(at 91.44 181.61 270)
+		(at 91.44 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9516,16 +9516,16 @@
 		(fields_autoplaced yes)
 		(uuid "6c27da93-5c14-4c52-9af7-0305418dfcae")
 		(property "Reference" "CN7"
-			(at 95.25 180.3399 90)
+			(at 95.25 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "XT30UW-F.G.Y"
-			(at 95.25 182.8799 90)
+			(at 87.63 180.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9535,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
-			(at 83.82 181.61 0)
+			(at 99.06 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9544,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
-			(at 81.28 181.61 0)
+			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9562,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 78.74 181.61 0)
+			(at 104.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9571,7 @@
 			)
 		)
 		(property "MPN" "XT30UW-F.G.Y"
-			(at 76.2 181.61 0)
+			(at 106.68 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9580,7 @@
 			)
 		)
 		(property "LCSC Part" "C19268025"
-			(at 73.66 181.61 0)
+			(at 109.22 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10115,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
-		(at 67.31 181.61 270)
+		(at 67.31 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10124,16 +10124,16 @@
 		(fields_autoplaced yes)
 		(uuid "8390fd22-5540-4c5f-9b6a-1f65df67fcb8")
 		(property "Reference" "CN5"
-			(at 71.12 180.3399 90)
+			(at 71.12 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "XT30UW-F.G.Y"
-			(at 71.12 182.8799 90)
+			(at 63.5 180.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10143,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
-			(at 59.69 181.61 0)
+			(at 74.93 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10152,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
-			(at 57.15 181.61 0)
+			(at 77.47 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +10170,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 54.61 181.61 0)
+			(at 80.01 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +10179,7 @@
 			)
 		)
 		(property "MPN" "XT30UW-F.G.Y"
-			(at 52.07 181.61 0)
+			(at 82.55 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10188,7 @@
 			)
 		)
 		(property "LCSC Part" "C19268025"
-			(at 49.53 181.61 0)
+			(at 85.09 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +12035,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
-		(at 78.74 181.61 270)
+		(at 78.74 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12044,16 +12044,16 @@
 		(fields_autoplaced yes)
 		(uuid "be8c14c6-e77c-4553-8c75-16bb77b69bdb")
 		(property "Reference" "CN6"
-			(at 82.55 180.3399 90)
+			(at 82.55 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "XT30UW-F.G.Y"
-			(at 82.55 182.8799 90)
+			(at 74.93 180.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12063,7 +12063,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
-			(at 71.12 181.61 0)
+			(at 86.36 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12072,7 +12072,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
-			(at 68.58 181.61 0)
+			(at 88.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12090,7 +12090,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 66.04 181.61 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,7 +12099,7 @@
 			)
 		)
 		(property "MPN" "XT30UW-F.G.Y"
-			(at 63.5 181.61 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +12108,7 @@
 			)
 		)
 		(property "LCSC Part" "C19268025"
-			(at 60.96 181.61 0)
+			(at 96.52 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13131,7 +13131,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
-		(at 55.88 181.61 270)
+		(at 55.88 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13140,16 +13140,16 @@
 		(fields_autoplaced yes)
 		(uuid "dd40b5c3-d782-4837-b234-f30395600bd0")
 		(property "Reference" "CN4"
-			(at 59.69 180.3399 90)
+			(at 59.69 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "XT30UW-F.G.Y"
-			(at 59.69 182.8799 90)
+			(at 52.07 180.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,7 +13159,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
-			(at 48.26 181.61 0)
+			(at 63.5 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13168,7 +13168,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
-			(at 45.72 181.61 0)
+			(at 66.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13186,7 +13186,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 43.18 181.61 0)
+			(at 68.58 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +13195,7 @@
 			)
 		)
 		(property "MPN" "XT30UW-F.G.Y"
-			(at 40.64 181.61 0)
+			(at 71.12 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13204,7 @@
 			)
 		)
 		(property "LCSC Part" "C19268025"
-			(at 38.1 181.61 0)
+			(at 73.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
