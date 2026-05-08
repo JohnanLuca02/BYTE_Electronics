@@ -3822,6 +3822,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:XT30UW-F.G.Y"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT30UW-F.G.Y"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AMASS(艾迈斯)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "XT30UW-F.G.Y"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19268025"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XT30UW-F.G.Y_0_1"
+				(rectangle
+					(start -6.35 2.54)
+					(end 6.35 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+48V"
 			(power)
 			(pin_numbers
@@ -4176,7 +4312,7 @@
 	)
 	(rectangle
 		(start 16.51 160.02)
-		(end 71.12 196.85)
+		(end 115.57 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -4199,8 +4335,8 @@
 		(uuid be8a6945-3f1f-4694-b4ca-d7db9ca99f79)
 	)
 	(rectangle
-		(start 102.87 170.18)
-		(end 134.62 190.5)
+		(start 140.97 170.18)
+		(end 172.72 190.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -4232,7 +4368,7 @@
 	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 118.618 168.148 0)
+		(at 156.718 168.148 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4284,7 +4420,7 @@
 		(uuid "06aa98a2-fac6-4b0a-aa0c-d080500d9136")
 	)
 	(junction
-		(at 120.65 182.88)
+		(at 158.75 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "087c5f73-742e-496e-8527-e1a7508b5b67")
@@ -4368,7 +4504,7 @@
 		(uuid "69a60e74-c246-499a-ac93-733ff19ed294")
 	)
 	(junction
-		(at 113.03 182.88)
+		(at 151.13 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f94ffb2-b80b-40a7-8f64-b485bc6d5a20")
@@ -4476,7 +4612,7 @@
 		(uuid "c4cde3ff-ad1f-4faa-96c0-8dba019c2b70")
 	)
 	(junction
-		(at 116.84 182.88)
+		(at 154.94 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c67cebd0-3e03-454a-837e-365ea0576b48")
@@ -4639,7 +4775,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 179.07) (xy 120.65 182.88)
+			(xy 158.75 179.07) (xy 158.75 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4855,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 179.07) (xy 128.27 182.88)
+			(xy 166.37 179.07) (xy 166.37 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4809,7 +4945,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 182.88) (xy 113.03 182.88)
+			(xy 144.78 182.88) (xy 151.13 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5279,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 179.07) (xy 113.03 182.88)
+			(xy 151.13 179.07) (xy 151.13 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5309,7 +5445,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 179.07) (xy 106.68 182.88)
+			(xy 144.78 179.07) (xy 144.78 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 182.88) (xy 116.84 182.88)
+			(xy 158.75 182.88) (xy 154.94 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6249,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 182.88) (xy 120.65 182.88)
+			(xy 166.37 182.88) (xy 158.75 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +6425,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 182.88) (xy 116.84 182.88)
+			(xy 151.13 182.88) (xy 154.94 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6306,16 +6442,6 @@
 			(type default)
 		)
 		(uuid "f83ca5bd-b312-4ce6-b91b-903d2d89e549")
-	)
-	(wire
-		(pts
-			(xy 55.88 187.96) (xy 55.88 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f241ad-03f8-4449-801a-9794af5fd79d")
 	)
 	(wire
 		(pts
@@ -7271,7 +7397,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 113.03 176.53 0)
+		(at 151.13 176.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7280,7 +7406,7 @@
 		(fields_autoplaced yes)
 		(uuid "14105a33-633c-4a02-9396-8fa5c65e2bfc")
 		(property "Reference" "H3"
-			(at 115.57 173.9899 0)
+			(at 153.67 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7415,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 115.57 176.5299 0)
+			(at 153.67 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 113.03 176.53 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 176.53 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7443,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 113.03 176.53 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7452,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 113.03 176.53 0)
+			(at 151.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,72 +7870,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "261d30a7-5ec2-4d88-aa71-3949f46ef5c8")
-		(property "Reference" "#PWR045"
-			(at 58.42 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 187.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d837c1b-006c-4cde-8d49-cc1db3df607a")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 180.34 0)
+		(at 120.65 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7818,7 +7879,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d16389f-c0a8-4ec9-a12e-6b288a016255")
 		(property "Reference" "#PWR066"
-			(at 82.55 186.69 0)
+			(at 120.65 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +7888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 185.42 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 180.34 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 180.34 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 180.34 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7868,71 +7929,6 @@
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d4aa8d1-65b7-4ca3-83dc-1c661f746955")
-		(property "Reference" "#PWR047"
-			(at 63.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdf67745-3d8f-4eab-9314-b395de5f1e11")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8064,7 +8060,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 106.68 176.53 0)
+		(at 144.78 176.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8073,7 +8069,7 @@
 		(fields_autoplaced yes)
 		(uuid "3052e1ae-939c-42a4-9866-b8481427247e")
 		(property "Reference" "H4"
-			(at 109.22 173.9899 0)
+			(at 147.32 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8078,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 109.22 176.5299 0)
+			(at 147.32 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8088,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 106.68 176.53 0)
+			(at 144.78 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 176.53 0)
+			(at 144.78 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8106,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 106.68 176.53 0)
+			(at 144.78 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8115,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 106.68 176.53 0)
+			(at 144.78 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,17 +8892,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+48V")
-		(at 55.88 187.96 180)
+		(lib_id "power:GND")
+		(at 78.74 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b60be15-68e7-4485-a3c2-3a436c41c812")
-		(property "Reference" "#PWR014"
-			(at 55.88 184.15 0)
+		(uuid "5aa23584-db60-43d2-bcd7-e392bdeb3f86")
+		(property "Reference" "#PWR073"
+			(at 78.74 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,8 +8909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+48VOUT"
-			(at 55.88 193.04 0)
+		(property "Value" "GND"
+			(at 82.55 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +8918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 187.96 0)
+			(at 78.74 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +8927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 187.96 0)
+			(at 78.74 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8940,8 +8935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 55.88 187.96 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,12 +8945,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab396c9f-a21f-4459-ae52-e91925bad9a9")
+			(uuid "16231de0-3d53-460a-bf69-5a8914c89f24")
 		)
 		(instances
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "#PWR014")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -9446,6 +9441,169 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bef5a9c-5cb2-4e04-b64c-db8a9f764866")
+		(property "Reference" "#PWR072"
+			(at 67.31 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5e1b490-5b79-4076-bb08-7b5994e76fde")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
+		(at 91.44 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c27da93-5c14-4c52-9af7-0305418dfcae")
+		(property "Reference" "CN7"
+			(at 95.25 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UW-F.G.Y"
+			(at 95.25 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XT30UW-F.G.Y"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19268025"
+			(at 73.66 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "776975d8-f547-41ea-becc-864f87e97ad5")
+		)
+		(pin "2"
+			(uuid "9ba72ba8-66fd-4429-bdd2-dc7a16882f2c")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "CN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 135.89 34.29 0)
 		(unit 1)
@@ -9891,6 +10049,169 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 91.44 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f1abdde-6934-43b0-a3c1-98f0511ab7b8")
+		(property "Reference" "#PWR074"
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31612d3e-a772-4f1c-9b41-f96408b0ba5c")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
+		(at 67.31 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8390fd22-5540-4c5f-9b6a-1f65df67fcb8")
+		(property "Reference" "CN5"
+			(at 71.12 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UW-F.G.Y"
+			(at 71.12 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 54.61 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XT30UW-F.G.Y"
+			(at 52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19268025"
+			(at 49.53 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95448ba9-f93c-4d1b-aca6-2a4eecbe18f4")
+		)
+		(pin "2"
+			(uuid "5e4b09f9-d096-4d29-987e-d2db13fe29bf")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 22.86 0)
 		(unit 1)
@@ -9985,117 +10306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:XT30PW-M")
-		(at 57.15 180.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89759aec-5a51-405b-b8a5-8c4c6a598b5d")
-		(property "Reference" "CN1"
-			(at 58.4201 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "XT30PW-M"
-			(at 55.8801 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT30PW-M"
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Changzhou-Amass-Elec-XT30PW-MMale-head_C431092.html"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 57.15 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XT30PW-M30.G.Y"
-			(at 57.15 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C431092"
-			(at 57.15 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 57.15 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b448e45-9e11-4297-80d2-f13f21821269")
-		)
-		(pin "3"
-			(uuid "a000b9b0-6e37-45d4-a73a-33525270fc91")
-		)
-		(pin "4"
-			(uuid "bc0a6704-bd35-4d7d-818b-fe19cdcdef6a")
-		)
-		(pin "1"
-			(uuid "aaa4043b-cf8d-4105-a018-e166e14cf4c3")
-		)
-		(instances
-			(project ""
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 119.38 0)
 		(unit 1)
@@ -10163,7 +10373,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 91.44 180.34 0)
+		(at 129.54 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10172,7 +10382,7 @@
 		(fields_autoplaced yes)
 		(uuid "92274c14-4a1b-4d67-8bda-64fbb7ed33b1")
 		(property "Reference" "TP4"
-			(at 93.98 175.7679 0)
+			(at 132.08 175.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10391,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 178.3079 0)
+			(at 132.08 178.3079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +10400,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 96.52 180.34 0)
+			(at 134.62 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 180.34 0)
+			(at 134.62 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10418,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 91.44 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10427,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 91.44 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,6 +11884,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 55.88 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba008f7a-92c6-4e5a-bee8-27a8e0831926")
+		(property "Reference" "#PWR010"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48VOUT"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 55.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a584ef8c-31bf-4ec2-8f4d-73509af32b58")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 198.12 52.07 90)
 		(unit 1)
@@ -11752,6 +12028,104 @@
 			(project "Good_Boy_Limiter"
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
+		(at 78.74 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be8c14c6-e77c-4553-8c75-16bb77b69bdb")
+		(property "Reference" "CN6"
+			(at 82.55 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UW-F.G.Y"
+			(at 82.55 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XT30UW-F.G.Y"
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19268025"
+			(at 60.96 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d64e69-d1cb-4008-9c0f-8f48ccbd38b2")
+		)
+		(pin "2"
+			(uuid "fed6f211-e208-4036-a8d6-fe8a060d3023")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "CN6")
 					(unit 1)
 				)
 			)
@@ -11918,6 +12292,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 78.74 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24680d0-cd85-4284-996c-9ea8013511a5")
+		(property "Reference" "#PWR012"
+			(at 78.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48VOUT"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 78.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fb91e81-1582-41dd-9b3f-57ce9a4bb99f")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 92.71 0)
 		(unit 1)
@@ -12077,71 +12517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c880adeb-a2e6-4db3-afea-7f4b86255617")
-		(property "Reference" "#PWR048"
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.546 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83fc077b-2ebe-4abb-b981-572e24b49f05")
-		)
-		(instances
-			(project "Good_Boy_Limiter"
-				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 114.3 113.03 90)
 		(unit 1)
@@ -12227,17 +12602,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 182.88 0)
+		(lib_id "power:+48V")
+		(at 91.44 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d224bc51-bd76-4ae5-bbef-7f42b6e52e03")
-		(property "Reference" "#PWR039"
-			(at 116.84 189.23 0)
+		(uuid "cda15bd4-2aac-459d-ae13-f8c3c047fbdb")
+		(property "Reference" "#PWR014"
+			(at 91.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,8 +12620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 116.84 187.96 0)
+		(property "Value" "+48VOUT"
+			(at 91.44 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12254,7 +12629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 182.88 0)
+			(at 91.44 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12263,7 +12638,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 182.88 0)
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b21775d4-32b5-4f9e-acea-d50ded82a3dd")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d224bc51-bd76-4ae5-bbef-7f42b6e52e03")
+		(property "Reference" "#PWR039"
+			(at 154.94 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,7 +12713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 182.88 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12482,8 +12923,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbf21a94-e3b9-4d21-b4a7-e3364e00ae19")
+		(property "Reference" "#PWR071"
+			(at 55.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8a5d127-303b-4f56-bb0b-5b68df7dc19b")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 120.65 176.53 0)
+		(at 158.75 176.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12492,7 +12998,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcc5a908-aa72-40e8-9824-e72860574a40")
 		(property "Reference" "H2"
-			(at 123.19 173.9899 0)
+			(at 161.29 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,7 +13007,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 123.19 176.5299 0)
+			(at 161.29 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12511,7 +13017,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 120.65 176.53 0)
+			(at 158.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12520,7 +13026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 176.53 0)
+			(at 158.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12529,7 +13035,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 120.65 176.53 0)
+			(at 158.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12538,7 +13044,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 120.65 176.53 0)
+			(at 158.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12618,6 +13124,104 @@
 			(project ""
 				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:XT30UW-F.G.Y")
+		(at 55.88 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd40b5c3-d782-4837-b234-f30395600bd0")
+		(property "Reference" "CN4"
+			(at 59.69 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UW-F.G.Y"
+			(at 59.69 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_XT30UW-F.G.Y"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19268025.pdf"
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 43.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XT30UW-F.G.Y"
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19268025"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83ef18f3-23b5-42e5-a30b-57b381301710")
+		)
+		(pin "2"
+			(uuid "df97c014-e93b-4064-88ff-ebda11e35cfe")
+		)
+		(instances
+			(project ""
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -12710,8 +13314,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 67.31 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e8303e-51b8-4f59-b91a-9a1c5ae762ef")
+		(property "Reference" "#PWR011"
+			(at 67.31 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48VOUT"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6abc542-14aa-424c-accd-77fe5b48db9a")
+		)
+		(instances
+			(project "Good_Boy_Limiter"
+				(path "/e6249df1-5b78-4b75-b804-4c6c30b1afc2"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 176.53 0)
+		(at 166.37 176.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12720,7 +13390,7 @@
 		(fields_autoplaced yes)
 		(uuid "e45314ba-a7ed-4aa1-b005-7afa9915f380")
 		(property "Reference" "H1"
-			(at 130.81 173.9899 0)
+			(at 168.91 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +13399,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 130.81 176.5299 0)
+			(at 168.91 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +13409,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 128.27 176.53 0)
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +13418,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 176.53 0)
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,7 +13427,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 128.27 176.53 0)
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12766,7 +13436,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 128.27 176.53 0)
+			(at 166.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 180.34 0)
+		(at 129.54 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13176,7 +13846,7 @@
 		(fields_autoplaced yes)
 		(uuid "f26cb927-a6c3-4f71-83e4-7b6669e8d324")
 		(property "Reference" "#PWR040"
-			(at 91.44 186.69 0)
+			(at 129.54 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +13855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 185.42 0)
+			(at 129.54 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13193,7 +13863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13202,7 +13872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13211,7 +13881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +14075,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 82.55 180.34 0)
+		(at 120.65 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13414,7 +14084,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8cb47e5-d98c-4d5d-93de-8d99ffff65c3")
 		(property "Reference" "TP10"
-			(at 85.09 175.7679 0)
+			(at 123.19 175.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,7 +14093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 178.3079 0)
+			(at 123.19 178.3079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13432,7 +14102,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 87.63 180.34 0)
+			(at 125.73 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +14111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 180.34 0)
+			(at 125.73 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13450,7 +14120,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 82.55 180.34 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +14129,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 82.55 180.34 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
