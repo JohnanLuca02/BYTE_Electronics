@@ -1,0 +1,72 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\johna\Documents\BYTE_Electronics\Good_Boy_Limiter\SPICE\LM5069_SPICE.asc
+Start Time: Mon Apr 27 10:36:22 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.01058
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 50.1894%
+vernier = 0.015625
+Source Step = 50.4735%
+Source Step = 50.947%
+Source Step = 51.4205%
+Source Step = 51.8939%
+Source Step = 52.3674%
+vernier = 0.0234375
+Source Step = 53.054%
+Source Step = 53.7642%
+Source Step = 54.4744%
+Source Step = 55.1847%
+Source Step = 55.8949%
+vernier = 0.0351562
+Source Step = 56.8892%
+Source Step = 57.9545%
+Source Step = 59.0199%
+Source Step = 60.0852%
+Source Step = 61.1506%
+vernier = 0.0527344
+Source Step = 62.5888%
+Source Step = 64.1868%
+Source Step = 65.7848%
+Source Step = 67.3828%
+Source Step = 68.9808%
+vernier = 0.0791016
+Source Step = 71.0582%
+Source Step = 73.4553%
+Source Step = 75.8523%
+Source Step = 78.2493%
+Source Step = 80.6463%
+vernier = 0.118652
+Source Step = 83.6426%
+Source Step = 87.2381%
+Source Step = 90.8336%
+Source Step = 94.4292%
+Source Step = 98.0247%
+vernier = 0.177979
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 1.105 seconds.
+
