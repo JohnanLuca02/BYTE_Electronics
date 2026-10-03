@@ -7334,7 +7334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 99.06 118.11 0)
 			(effects
 				(font
@@ -8801,7 +8801,7 @@
 		(at 45.72 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10100,7 +10100,7 @@
 		(at 48.26 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10584,7 +10584,7 @@
 		(at 129.54 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11753,7 +11753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "BOOT1"
+		(property "Value" "Button"
 			(at 125.73 67.3099 90)
 			(effects
 				(font
@@ -12432,7 +12432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -12657,7 +12657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 26.162 90)
 			(effects
 				(font
@@ -13027,7 +13027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "RESET1"
+		(property "Value" "Button"
 			(at 123.19 35.5599 90)
 			(effects
 				(font
@@ -14363,7 +14363,7 @@
 		(at 120.65 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
