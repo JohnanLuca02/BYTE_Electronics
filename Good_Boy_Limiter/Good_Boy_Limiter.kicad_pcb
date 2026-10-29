@@ -1143,7 +1143,7 @@
 			(uuid "940322c1-7590-443f-8795-7895d9718a7f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5933,8 +5933,7 @@
 			(uuid "cc0d1967-008d-423d-9c24-fb17ffefa094")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CVM_1-178136-3.stp"
-			(hide yes)
+		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/CVM_1-178136-3.stp"
 			(offset
 				(xyz 5 0 21.5)
 			)
@@ -15888,7 +15887,7 @@
 			(uuid "83c50ee7-274f-4163-8c61-da0b163c41c0")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/D2PAK_L10.2-W9.0-P5.08-LS16.9-BR.wrl"
+		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/D2PAK_L10.2-W9.0-P5.08-LS16.9-BR.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29249,7 +29248,7 @@
 			(uuid "415acc59-ed85-47cb-ab39-6131af44aea1")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1.wrl"
+		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30288,7 +30287,7 @@
 			(uuid "c64b7706-48ed-4186-afcc-777e4fc400a5")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RES-TH_BD9.0-L36.5-P42.00-D0.8.wrl"
+		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/RES-TH_BD9.0-L36.5-P42.00-D0.8.step"
 			(offset
 				(xyz 0 0 0)
 			)

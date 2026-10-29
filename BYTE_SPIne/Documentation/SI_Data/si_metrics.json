@@ -1,0 +1,82 @@
+{
+ "Jetson, P2 pin 22 (receiver) | ": {
+  "peak": 4.507,
+  "min_rise": 2.765,
+  "t_min": 18.599,
+  "max_fall": 0.276,
+  "under": -0.752
+ },
+ "MCU B3, pin 27 (high impedance) | ": {
+  "peak": 4.597,
+  "min_rise": 2.724,
+  "t_min": 18.827,
+  "max_fall": 0.316,
+  "under": -0.775
+ },
+ "MCU B3, pin 28 | ": {
+  "peak": 5.036,
+  "min_rise": 1.855,
+  "t_min": 15.426,
+  "max_fall": 0.615,
+  "under": -0.8
+ },
+ "MCU B4, pin 28 | ": {
+  "peak": 5.307,
+  "min_rise": 1.596,
+  "t_min": 16.758,
+  "max_fall": 0.631,
+  "under": -0.8
+ },
+ "MCU B3, pin 26 | no series resistor": {
+  "peak": 4.79,
+  "min_rise": 2.178,
+  "t_min": 15.0,
+  "max_fall": 0.545,
+  "under": -0.792
+ },
+ "MCU B3, pin 26 | 33 $\\Omega$ on the layout": {
+  "peak": 3.709,
+  "min_rise": 2.964,
+  "t_min": 21.514,
+  "max_fall": 0.275,
+  "under": -0.288
+ },
+ "MCU B4, pin 26 | no series resistor": {
+  "peak": 4.908,
+  "min_rise": 2.09,
+  "t_min": 15.4,
+  "max_fall": 0.527,
+  "under": -0.782
+ },
+ "MCU B4, pin 26 | 33 $\\Omega$ on the layout": {
+  "peak": 4.101,
+  "min_rise": 2.79,
+  "t_min": 16.053,
+  "max_fall": 0.422,
+  "under": -0.756
+ },
+ "sweep": {
+  "10.0": 2.537,
+  "15.1": 2.679,
+  "20.2": 2.795,
+  "25.3": 2.882,
+  "30.4": 2.948,
+  "35.6": 3.002,
+  "40.7": 3.042,
+  "45.8": 3.074,
+  "50.9": 3.1,
+  "56.0": 3.122
+ },
+ "sweep_peaks": {
+  "10.0": 4.519,
+  "15.1": 4.345,
+  "20.2": 4.205,
+  "25.3": 4.075,
+  "30.4": 3.954,
+  "35.6": 3.84,
+  "40.7": 3.75,
+  "45.8": 3.664,
+  "50.9": 3.59,
+  "56.0": 3.525
+ }
+}

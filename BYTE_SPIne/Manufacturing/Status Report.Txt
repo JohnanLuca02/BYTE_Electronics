@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Project [BYTE_SPIne.PrjPcb]
+   Generated File[Bill of Materials-BYTE_SPIne.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 16:52:21 On 29.10.2026

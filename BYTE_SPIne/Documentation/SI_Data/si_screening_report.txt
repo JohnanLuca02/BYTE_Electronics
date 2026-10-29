@@ -1,0 +1,252 @@
+
+
+Falling Edge Overshoot
+
+The following nets have values outside defined tolerance levels :
+UART1_CTS       (Actual Value =  2.093  , Tolerance =  1.000  )
+SPI_INT4        (Actual Value =  2.174  , Tolerance =  984.0m )
+SPI_INT3        (Actual Value =  1.879  , Tolerance =  972.9m )
+SPI_INT2        (Actual Value =  1.053  , Tolerance =  975.5m )
+SPI_INT1        (Actual Value =  1.347  , Tolerance =  977.8m )
+NetP2_13        (Actual Value =  1.407  , Tolerance =  660.0m )
+SPI1_SCK        (Actual Value =  1.407  , Tolerance =  660.0m )
+SPI1_MOSI       (Actual Value =  2.513  , Tolerance =  663.6m )
+NetP2_23        (Actual Value =  1.366  , Tolerance =  660.0m )
+SPI0_SCK        (Actual Value =  1.366  , Tolerance =  660.0m )
+SPI0_MOSI       (Actual Value =  1.722  , Tolerance =  660.1m )
+NetR4_CAN_A1_1  (Actual Value =  808.7m , Tolerance =  660.0m )
+NetR4_CAN_A2_1  (Actual Value =  808.7m , Tolerance =  660.0m )
+SPI0_MISO       (Actual Value =  808.7m , Tolerance =  660.0m )
+I2S0_SCLK       (Actual Value =  1.181  , Tolerance =  1.000  )
+I2S0_FS         (Actual Value =  2.037  , Tolerance =  1.000  )
+I2S0_DOUT       (Actual Value =  2.067  , Tolerance =  1.000  )
+I2S0_DIN        (Actual Value =  2.050  , Tolerance =  1.000  )
+I2C0_SDA        (Actual Value =  2.066  , Tolerance =  1.000  )
+I2C0_SCL        (Actual Value =  2.069  , Tolerance =  1.000  )
+
+
+Falling Edge Undershoot
+
+The following nets have values outside defined tolerance levels :
+UART1_CTS       (Actual Value =  1.766  , Tolerance =  1.000  )
+SPI_INT4        (Actual Value =  1.856  , Tolerance =  984.0m )
+SPI_INT3        (Actual Value =  1.612  , Tolerance =  972.9m )
+SPI_INT1        (Actual Value =  1.146  , Tolerance =  977.8m )
+SPI1_MOSI       (Actual Value =  1.637  , Tolerance =  663.6m )
+NetP2_23        (Actual Value =  670.9m , Tolerance =  660.0m )
+SPI0_SCK        (Actual Value =  670.9m , Tolerance =  660.0m )
+SPI0_MOSI       (Actual Value =  980.9m , Tolerance =  660.1m )
+I2S0_FS         (Actual Value =  1.657  , Tolerance =  1.000  )
+I2S0_DOUT       (Actual Value =  1.732  , Tolerance =  1.000  )
+I2S0_DIN        (Actual Value =  1.670  , Tolerance =  1.000  )
+I2C0_SDA        (Actual Value =  1.732  , Tolerance =  1.000  )
+I2C0_SCL        (Actual Value =  1.740  , Tolerance =  1.000  )
+
+
+Rising Edge Overshoot
+
+The following nets have values outside defined tolerance levels :
+UART1_CTS       (Actual Value =  2.397  , Tolerance =  1.000  )
+SPI_INT4        (Actual Value =  2.583  , Tolerance =  984.0m )
+SPI_INT3        (Actual Value =  2.357  , Tolerance =  972.9m )
+SPI_INT2        (Actual Value =  1.689  , Tolerance =  975.5m )
+SPI_INT1        (Actual Value =  1.975  , Tolerance =  977.8m )
+NetP2_13        (Actual Value =  1.240  , Tolerance =  660.0m )
+SPI1_SCK        (Actual Value =  1.240  , Tolerance =  660.0m )
+SPI1_MOSI       (Actual Value =  2.361  , Tolerance =  663.6m )
+NetP2_23        (Actual Value =  960.9m , Tolerance =  660.0m )
+SPI0_SCK        (Actual Value =  960.9m , Tolerance =  660.0m )
+SPI0_MOSI       (Actual Value =  1.315  , Tolerance =  660.1m )
+NetR4_CAN_A1_1  (Actual Value =  1.220  , Tolerance =  660.0m )
+NetR4_CAN_A2_1  (Actual Value =  1.220  , Tolerance =  660.0m )
+SPI0_MISO       (Actual Value =  1.220  , Tolerance =  660.0m )
+I2S0_SCLK       (Actual Value =  1.725  , Tolerance =  1.000  )
+I2S0_FS         (Actual Value =  2.367  , Tolerance =  1.000  )
+I2S0_DOUT       (Actual Value =  2.360  , Tolerance =  1.000  )
+I2S0_DIN        (Actual Value =  2.376  , Tolerance =  1.000  )
+I2C0_SDA        (Actual Value =  2.359  , Tolerance =  1.000  )
+I2C0_SCL        (Actual Value =  2.359  , Tolerance =  1.000  )
+
+
+Rising Edge Undershoot
+
+The following nets have values outside defined tolerance levels :
+UART1_CTS       (Actual Value =  2.015  , Tolerance =  1.000  )
+SPI_INT4        (Actual Value =  2.205  , Tolerance =  984.0m )
+SPI_INT3        (Actual Value =  2.010  , Tolerance =  972.9m )
+SPI_INT2        (Actual Value =  1.481  , Tolerance =  975.5m )
+SPI_INT1        (Actual Value =  1.674  , Tolerance =  977.8m )
+SPI1_MOSI       (Actual Value =  1.484  , Tolerance =  663.6m )
+NetR4_CAN_A1_1  (Actual Value =  725.5m , Tolerance =  660.0m )
+NetR4_CAN_A2_1  (Actual Value =  725.5m , Tolerance =  660.0m )
+SPI0_MISO       (Actual Value =  725.5m , Tolerance =  660.0m )
+I2S0_SCLK       (Actual Value =  1.343  , Tolerance =  1.000  )
+I2S0_FS         (Actual Value =  1.916  , Tolerance =  1.000  )
+I2S0_DOUT       (Actual Value =  1.988  , Tolerance =  1.000  )
+I2S0_DIN        (Actual Value =  1.933  , Tolerance =  1.000  )
+I2C0_SDA        (Actual Value =  1.988  , Tolerance =  1.000  )
+I2C0_SCL        (Actual Value =  1.996  , Tolerance =  1.000  )
+
+
+Top Value
+
+The following nets have values outside defined tolerance levels :
+USB_DP4         (Actual Value =  0.000  , Tolerance =  3.300  )
+USB_DP3         (Actual Value =  0.000  , Tolerance =  3.300  )
+USB_DM4         (Actual Value =  0.000  , Tolerance =  3.300  )
+USB_DM3         (Actual Value =  0.000  , Tolerance =  3.300  )
+SWDIO_CAN_B4    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWDIO_CAN_B3    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWDIO_CAN_A2    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWDIO_CAN_A1    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWCLK_CAN_B4    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWCLK_CAN_B3    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWCLK_CAN_A2    (Actual Value =  0.000  , Tolerance =  3.300  )
+SWCLK_CAN_A1    (Actual Value =  0.000  , Tolerance =  3.300  )
+SPI_NSS4        (Actual Value =  0.000  , Tolerance =  3.300  )
+SPI_NSS3        (Actual Value =  0.000  , Tolerance =  3.300  )
+SPI_NSS2        (Actual Value =  0.000  , Tolerance =  3.300  )
+SPI_NSS1        (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR4_CAN_B3_1  (Actual Value =  3.292  , Tolerance =  3.300  )
+NetR4_CAN_B4_1  (Actual Value =  3.292  , Tolerance =  3.300  )
+SPI1_MISO       (Actual Value =  3.292  , Tolerance =  3.300  )
+NetR4_CAN_A1_1  (Actual Value =  3.300  , Tolerance =  3.300  )
+NetR4_CAN_A2_1  (Actual Value =  3.300  , Tolerance =  3.300  )
+SPI0_MISO       (Actual Value =  3.300  , Tolerance =  3.300  )
+NRST_CAN_B4     (Actual Value =  0.000  , Tolerance =  3.300  )
+NRST_CAN_B3     (Actual Value =  0.000  , Tolerance =  3.300  )
+NRST_CAN_A2     (Actual Value =  0.000  , Tolerance =  3.300  )
+NRST_CAN_A1     (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR5_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR5_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR5_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR5_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD3_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR2_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD3_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR2_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD3_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR2_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD3_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR2_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD2_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR1_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD2_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR1_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD2_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR1_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD2_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetR1_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetJ2_B5        (Actual Value =  0.000  , Tolerance =  3.300  )
+NetJ2_A5        (Actual Value =  0.000  , Tolerance =  3.300  )
+NetDS1_1        (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC3_CAN_B4_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_B4_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC3_CAN_B3_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_B3_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC3_CAN_A2_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_A2_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC3_CAN_A1_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_A1_1  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetD1_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC19_1        (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC17_1        (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC9_1         (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC8_CAN_B4_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC8_CAN_B3_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC8_CAN_A2_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+NetC8_CAN_A1_2  (Actual Value =  0.000  , Tolerance =  3.300  )
+D-              (Actual Value =  0.000  , Tolerance =  3.300  )
+D+              (Actual Value =  0.000  , Tolerance =  3.300  )
+BOOT0_CAN_B4    (Actual Value =  0.000  , Tolerance =  3.300  )
+BOOT0_CAN_B3    (Actual Value =  0.000  , Tolerance =  3.300  )
+BOOT0_CAN_A2    (Actual Value =  0.000  , Tolerance =  3.300  )
+BOOT0_CAN_A1    (Actual Value =  0.000  , Tolerance =  3.300  )
+
+
+The following nets were not able to be analysed :
+
+USB_DP4
+USB_DP3
+USB_DP2
+USB_DP1
+USB_DM4
+USB_DM3
+USB_DM2
+USB_DM1
+UART1_TXD
+UART1_RXD
+UART1_RTS
+SWDIO_CAN_B4
+SWDIO_CAN_B3
+SWDIO_CAN_A2
+SWDIO_CAN_A1
+SWCLK_CAN_B4
+SWCLK_CAN_B3
+SWCLK_CAN_A2
+SWCLK_CAN_A1
+SPI_NSS4
+SPI_NSS3
+SPI_NSS2
+SPI_NSS1
+SPI0_MOSI
+NRST_CAN_B4
+NRST_CAN_B3
+NRST_CAN_A2
+NRST_CAN_A1
+NetR5_CAN_B4_2
+NetR5_CAN_B3_2
+NetR5_CAN_A2_2
+NetR5_CAN_A1_2
+NetD3_CAN_B4_2
+NetR2_CAN_B4_2
+NetD3_CAN_B3_2
+NetR2_CAN_B3_2
+NetD3_CAN_A2_2
+NetR2_CAN_A2_2
+NetD3_CAN_A1_2
+NetR2_CAN_A1_2
+NetD2_CAN_B4_2
+NetR1_CAN_B4_2
+NetD2_CAN_B3_2
+NetR1_CAN_B3_2
+NetD2_CAN_A2_2
+NetR1_CAN_A2_2
+NetD2_CAN_A1_2
+NetR1_CAN_A1_2
+NetJ2_B5
+NetJ2_A5
+NetDS1_1
+NetC3_CAN_B4_1
+NetD1_CAN_B4_1
+NetD1_CAN_B4_2
+NetC3_CAN_B3_1
+NetD1_CAN_B3_1
+NetD1_CAN_B3_2
+NetC3_CAN_A2_1
+NetD1_CAN_A2_1
+NetD1_CAN_A2_2
+NetC3_CAN_A1_1
+NetD1_CAN_A1_1
+NetD1_CAN_A1_2
+NetC8_CAN_B4_2
+NetC8_CAN_B3_2
+NetC8_CAN_A2_2
+NetC8_CAN_A1_2
+NetC7_CAN_B4_2
+NetC7_CAN_B3_2
+NetC7_CAN_A2_2
+NetC7_CAN_A1_2
+I2C1_SDA
+I2C1_SCL
+GPIO12/PWM
+GPIO9
+D-
+D+
+BOOT0_CAN_B4
+BOOT0_CAN_B3
+BOOT0_CAN_A2
+BOOT0_CAN_A1

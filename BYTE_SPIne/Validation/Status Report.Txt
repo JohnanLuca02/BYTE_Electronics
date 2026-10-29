@@ -1,0 +1,10 @@
+Output: Design Rules Check
+Type  : DRC
+From  : PCB Document [BYTE_SPIne.PcbDoc]
+   Generated File[BYTE_SPIne.html]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 16:52:26 On 29.10.2026
