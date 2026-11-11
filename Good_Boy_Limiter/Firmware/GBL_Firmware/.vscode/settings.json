@@ -31,7 +31,7 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\johna\\Documents\\GitHub\\BYTE_Electronics\\Good_Boy_Limiter\\Firmware\\hello_world\\build"
+    "--compile-commands-dir=${workspaceFolder}/build"
   ],
   "idf.flashType": "UART"
 }

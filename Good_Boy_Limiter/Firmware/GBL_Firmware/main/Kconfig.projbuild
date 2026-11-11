@@ -1,0 +1,49 @@
+menu "GBL firmware"
+
+    choice GBL_APP
+        prompt "Application"
+        default GBL_APP_RUN
+        help
+            Selects which firmware to build.
+
+        config GBL_APP_RUN
+            bool "Production (power switch + state machine)"
+        config GBL_APP_DEBUG
+            bool "Test/debug (manual control from the console)"
+    endchoice
+
+    choice GBL_BATT
+        prompt "Battery pack (LiPo)"
+        default GBL_BATT_6S
+        help
+            LiPo pack feeding the line. The voltage thresholds are derived from
+            the number of cells (see gbl_power.c and gbl_run.c):
+              6S : 18.0 V empty - 25.2 V full  (24 V class)
+              12S: 36.0 V empty - 50.4 V full  (48 V class)
+              13S: 39.0 V empty - 54.6 V full  (48 V class)
+
+            !!! HARDWARE CHANGE REQUIRED BEFORE SWITCHING BETWEEN 24 AND 48 V !!!
+            The LM5069 UVLO threshold is set in hardware by R31 143k / R30 10k
+            (on ~38.3 V, off ~35.3 V), too high for a 6S pack. An extra
+            resistor between +48VIN and UVLO (TP9-TP2), in parallel with R31,
+            lowers it:
+              - 6S : 100k SOLDERED -> on ~17.2 V, off ~16.0 V
+                     (without it Q1 never turns on: every pre-charge fails)
+              - 12S/13S: resistor REMOVED (otherwise the undervoltage
+                     protection is lost)
+
+        config GBL_BATT_6S
+            bool "6S, 24 V class (100k UVLO resistor soldered)"
+        config GBL_BATT_12S
+            bool "12S, 48 V class (UVLO resistor removed)"
+        config GBL_BATT_13S
+            bool "13S, 48 V class (UVLO resistor removed)"
+    endchoice
+
+    config GBL_BATT_CELLS
+        int
+        default 6 if GBL_BATT_6S
+        default 12 if GBL_BATT_12S
+        default 13
+
+endmenu

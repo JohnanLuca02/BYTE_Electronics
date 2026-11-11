@@ -8,8 +8,9 @@
 	"clangd.arguments": [
 		"--background-index",
 		"--query-driver=**",
-		"--compile-commands-dir=c:\\Users\\johna\\Documents\\GitHub\\BYTE_Electronics\\Good_Boy_Limiter\\Firmware\\build"
+		"--compile-commands-dir=${workspaceFolder}/GBL_Firmware/build"
 	],
-	"cmake.sourceDirectory": "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Good_Boy_Limiter/Firmware/hello_world",
-	"idf.flashType": "UART"
+	"cmake.sourceDirectory": "${workspaceFolder}/GBL_Firmware",
+	"idf.flashType": "UART",
+	"idf.port": "COM3"
 }
