@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AIT-Logo")(type "KiCad")(uri "${KIPRJMOD}/AIT-Logo.pretty")(options "")(descr ""))
+)

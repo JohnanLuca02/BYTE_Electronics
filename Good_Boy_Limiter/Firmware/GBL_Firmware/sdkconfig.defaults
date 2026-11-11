@@ -1,0 +1,13 @@
+# GBL firmware: project settings that differ from the ESP-IDF defaults.
+# Tracked by git. Used to generate sdkconfig when it does not exist
+# (fresh clone, or after deleting sdkconfig). Regenerate with: idf.py save-defconfig
+CONFIG_IDF_TARGET="esp32s3"
+
+# Console on the native USB port (COM3), not UART0
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+
+# Application: production. Set CONFIG_GBL_APP_DEBUG=y for the debug console.
+CONFIG_GBL_APP_RUN=y
+
+# Battery pack. Must match the UVLO resistor on TP9-TP2 (see README).
+CONFIG_GBL_BATT_6S=y

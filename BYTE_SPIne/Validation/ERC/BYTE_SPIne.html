@@ -1,0 +1,442 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+        td, th {
+            padding: 0.5em;
+            text-align : left;
+        }
+        th {
+            background-color : #EEEEEE;
+        
+        }
+        th.column1, td.column1 {
+            width : 10em;
+        }
+
+        th.column2, td.column2 {
+            width : 30em;
+        }
+
+        table {
+            width : 100%;
+            font-size: 0.9em;
+        }
+
+		.header_holder {
+			Width = 100%;
+			border = 0px solid green;
+			padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+        }
+
+        .front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+        }
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+            text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+            background-color : #white;
+        }
+        tr.onmouseout_even { 
+            background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+            background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e;
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+            
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));
+                    coordNode.appendChild(textNode);
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+            file://C:\Users\Public\Documents\Altium\AD25\Templates\AD_logo.png
+        "><h1>Electrical Rule Check Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">29.10.2026</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16:52:24</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Public\Documents\Altium\BYTE_SPIne\.\Validation\ERC\BYTE_SPIne.html" class="file"><acronym title="C:\Users\Public\Documents\Altium\BYTE_SPIne\.\Validation\ERC\BYTE_SPIne.html">C:\Users\Public\Documents\Altium\BYTE_SPIne\.\Validation\ERC\BYTE_SPIne.html</acronym></a></td>
+</tr>
+</table><a name="IDUVOAPLHADBZLKXND05SZWHV2AODXAJ1AKTWG0WJBEUO4EHWJJUSH"><table>
+<tr>
+<th class="column1">Class</th>
+<th class="column2">Document</th>
+<th class="column3">Message</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">3V3 contains IO Pin and Power Pin objects (Pin U2-5, Pin U2-5, Pin U2-5, Pin U2-5, Pin U1-1, Pin U1-1, Pin U1-1, Pin U1-1, Pin U1-9, Pin U1-9, Pin U1-9, Pin U1-9, Pin U1-24, Pin U1-24, Pin U1-24, Pin U1-24, Pin U1-36, Pin U1-36, Pin U1-36, Pin U1-36, Pin U1-48, Pin U1-48, Pin U1-48, Pin U1-48).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">3V3_CAN_A1 contains IO Pin and Unspecified Port objects (Pin U2-5, Port +3V3).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">3V3_CAN_A2 contains IO Pin and Unspecified Port objects (Pin U2-5, Port +3V3).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">3V3_CAN_B3 contains IO Pin and Unspecified Port objects (Pin U2-5, Port +3V3).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">3V3_CAN_B4 contains IO Pin and Unspecified Port objects (Pin U2-5, Port +3V3).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">5VUSB contains Input Pin and Unspecified Sheet Entry objects (Pin U6-3, Sheet Entry U_USB_Communication-5VUSB(Passive)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">CAN_RX_CAN_A1 contains IO Pin and Output Pin objects (Pin U1-45, Pin U2-4).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">CAN_RX_CAN_A2 contains IO Pin and Output Pin objects (Pin U1-45, Pin U2-4).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">CAN_RX_CAN_B3 contains IO Pin and Output Pin objects (Pin U1-45, Pin U2-4).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">CAN_RX_CAN_B4 contains IO Pin and Output Pin objects (Pin U1-45, Pin U2-4).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">GND contains IO Pin and Power Pin objects (Pin U4-12, Pin J2-A1_B12, Pin J2-B1_A12, Pin U1-8, Pin U1-8, Pin U1-8, Pin U1-8, Pin U1-23, Pin U1-23, Pin U1-23, Pin U1-23, Pin U1-35, Pin U1-35, Pin U1-35, Pin U1-35, Pin U1-47, Pin U1-47, Pin U1-47, Pin U1-47, Pin U2-2, Pin U2-2, Pin U2-2, Pin U2-2, Pin U3-2, Pin U5-1, Pin U6-2, Pin U7-2, Pin Y2-2, Pin Y2-4).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net BOOT0_CAN_A1 has no driving source (Pin R10-1, Pin S1-1, Pin S1-4, Pin U1-44)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net BOOT0_CAN_A2 has no driving source (Pin R10-1, Pin S1-1, Pin S1-4, Pin U1-44)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net BOOT0_CAN_B3 has no driving source (Pin R10-1, Pin S1-1, Pin S1-4, Pin U1-44)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net BOOT0_CAN_B4 has no driving source (Pin R10-1, Pin S1-1, Pin S1-4, Pin U1-44)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net NetR5_CAN_A1_2 has no driving source (Pin R5-2, Pin U2-8)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net NetR5_CAN_A2_2 has no driving source (Pin R5-2, Pin U2-8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net NetR5_CAN_B3_2 has no driving source (Pin R5-2, Pin U2-8)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">Net NetR5_CAN_B4_2 has no driving source (Pin R5-2, Pin U2-8)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetR3_CAN_A1_1 contains IO Pin and Input Port objects (Pin U1-25, Port SPI_NSS).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetR3_CAN_A2_1 contains IO Pin and Input Port objects (Pin U1-25, Port SPI_NSS).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetR3_CAN_B3_1 contains IO Pin and Input Port objects (Pin U1-25, Port SPI_NSS).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetR3_CAN_B4_1 contains IO Pin and Input Port objects (Pin U1-25, Port SPI_NSS).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire 3V3 has multiple names (Net Label 3V3 (3), Net Label 3V3_CAN_A1 (7), Net Label 3V3_CAN_A2 (7), Net Label 3V3_CAN_B3 (7), Net Label 3V3_CAN_B4 (7), Sheet Entry CAN_A1-+3V3(Passive), Sheet Entry CAN_B3-+3V3(Passive))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire 5VUSB has multiple names (Net Label 5VUSB (2), Net Label +5VUSB (3), Sheet Entry U_USB_Communication-5VUSB(Passive))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire SPI0_MISO has multiple names (Net Label SPI0_MISO (2), Sheet Entry CAN_A1-SPI_MISO(Output))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire SPI0_MOSI has multiple names (Net Label SPI0_MOSI (2), Sheet Entry CAN_A1-SPI_MOSI(Input))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire SPI0_SCK has multiple names (Net Label SPI0_SCK (2), Sheet Entry CAN_A1-SPI_SCK(Input))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire SPI1_MISO has multiple names (Net Label SPI1_MISO (2), Sheet Entry CAN_B3-SPI_MISO(Output))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire SPI1_MOSI has multiple names (Net Label SPI1_MOSI (2), Sheet Entry CAN_B3-SPI_MOSI(Input))</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">Nets Wire SPI1_SCK has multiple names (Net Label SPI1_SCK (2), Sheet Entry CAN_B3-SPI_SCK(Input))</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_A1_22 contains IO Pin and Output Port objects (Pin U1-22, Port SPI_INT).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_A1_26 contains IO Pin and Input Port objects (Pin U1-26, Port SPI_SCK).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_A1_28 contains IO Pin and Input Port objects (Pin U1-28, Port SPI_MOSI).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_A2_22 contains IO Pin and Output Port objects (Pin U1-22, Port SPI_INT).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_A2_26 contains IO Pin and Input Port objects (Pin U1-26, Port SPI_SCK).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_A2_28 contains IO Pin and Input Port objects (Pin U1-28, Port SPI_MOSI).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_B3_22 contains IO Pin and Output Port objects (Pin U1-22, Port SPI_INT).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_B3_26 contains IO Pin and Input Port objects (Pin U1-26, Port SPI_SCK).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_B3_28 contains IO Pin and Input Port objects (Pin U1-28, Port SPI_MOSI).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_B4_22 contains IO Pin and Output Port objects (Pin U1-22, Port SPI_INT).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_B4_26 contains IO Pin and Input Port objects (Pin U1-26, Port SPI_SCK).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">CAN_channel.SchDoc</td>
+<td class="column3">NetU1_CAN_B4_28 contains IO Pin and Input Port objects (Pin U1-28, Port SPI_MOSI).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">USB_Communication.SchDoc</td>
+<td class="column3">NetU3_1 contains IO Pin and Output Port objects (Pin U3-1, Port DP).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">USB_Communication.SchDoc</td>
+<td class="column3">NetU3_3 contains IO Pin and Output Port objects (Pin U3-3, Port DM).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">NetU4_9 contains IO Pin and Output Sheet Entry objects (Pin U4-9, Sheet Entry U_USB_Communication-DM(Output)).</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">NetU4_10 contains IO Pin and Output Sheet Entry objects (Pin U4-10, Sheet Entry U_USB_Communication-DP(Output)).</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Warning</td>
+<td class="column2">BYTE_SPIne.SchDoc</td>
+<td class="column3">SPI1_MISO contains IO Pin and Output Sheet Entry objects (Pin P2-22, Sheet Entry CAN_B3-SPI_MISO(Output)).</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,16 @@
+{
+	"idf.currentSetup": "C:\\esp\\.espressif\\v5.5.4\\esp-idf",
+	"idf.openOcdConfigs": [
+		"board/esp32s3-builtin.cfg"
+	],
+	"idf.customExtraVars": {},
+	"clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+	"clangd.arguments": [
+		"--background-index",
+		"--query-driver=**",
+		"--compile-commands-dir=${workspaceFolder}/GBL_Firmware/build"
+	],
+	"cmake.sourceDirectory": "${workspaceFolder}/GBL_Firmware",
+	"idf.flashType": "UART",
+	"idf.port": "COM3"
+}
