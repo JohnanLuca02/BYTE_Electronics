@@ -1,0 +1,9 @@
+menu "GBL EMERGENCY firmware"
+
+    # Required by the gbl_hw driver (thresholds per cell). The emergency
+    # firmware only targets the current robot: 6S LiPo, 100k UVLO resistor fitted.
+    config GBL_BATT_CELLS
+        int
+        default 6
+
+endmenu
