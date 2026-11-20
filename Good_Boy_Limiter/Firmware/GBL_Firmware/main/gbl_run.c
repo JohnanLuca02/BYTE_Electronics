@@ -8,14 +8,24 @@
  *   WAIT_SWITCH_OFF --switch OFF--> OFF --switch ON--> pre-charge --ok--> ON
  *          ^                          ^                    |              |
  *          +----------- fault --------|--------------------+  switch OFF  |
- *          +---- undervoltage in ON --|-----------------------------------+
- *                                     |                                   v
+ *          +---- undervoltage --------|------------------------------+    v
+ *                                     |                              JETSON_OFF
+ *                                     |                                   | Jetson halted
+ *                                     |                                   v (or no reply)
  *                                     +--- bus < 5 V (or switch ON) -- STOPPING
  *
  * - If the switch is already ON at boot, nothing starts: an OFF -> ON cycle is
  *   required, so a reset or a mains return never re-energises the line alone.
  * - After a fault (short, ambiguous charge, voltage out of range, undervoltage) the line stays off
  *   until the switch is turned back OFF: no automatic retry on a fault.
+ * - Before the line is opened, the Jetson (powered downstream) is asked to
+ *   halt over the J2 UART, so its file system is never cut while writing:
+ *     GBL -> "GBL:SHUTDOWN", Jetson -> "JETSON:ACK" and runs poweroff,
+ *     GBL waits JETSON_HALT_MS, then opens the line.
+ *   No ACK within JETSON_ACK_MS (Jetson off, booting, or not connected): the
+ *   line is opened right away. Once requested, the shutdown always completes,
+ *   even if the switch goes back ON: the Jetson is already halting and needs a
+ *   power cycle to restart.
  * - Shutdown is controlled (see gbl_power_shutdown) and the OFF state is
  *   reached only once the bus is discharged: only then is unplugging the PDBs
  *   safe.
@@ -30,11 +40,18 @@
 #include "gbl_power.h"
 #include "gbl_vsens.h"
 #include "gbl_switch.h"
+#include "gbl_log.h"
 
 #define LOOP_PERIOD_MS 20
 #define V_BUS_SAFE 5.0f	   // below this the bus is discharged: safe to unplug the PDBs
 #define V_MIN_ON (3.0f * CONFIG_GBL_BATT_CELLS) // in ON, 3.0 V/cell under load: pack empty or line lost (6S 18 V, 12S 36 V, 13S 39 V)
 #define UNDERVOLT_MS 100   // minimum undervoltage duration before acting
+
+/* Jetson shutdown handshake (protocol strings shared with tools/jetson/gbl_link.sh) */
+#define JETSON_CMD_SHUTDOWN "GBL:SHUTDOWN"
+#define JETSON_REPLY_ACK "JETSON:ACK"
+#define JETSON_ACK_MS 2000	 // no reply within this time: Jetson not running
+#define JETSON_HALT_MS 20000 // Orin Nano poweroff takes ~10-15 s: margin included
 
 static const char *TAG = "run";
 
@@ -43,6 +60,7 @@ typedef enum
 	ST_WAIT_SWITCH_OFF, // locked: waits for the switch to go OFF (boot with switch ON or fault)
 	ST_OFF,				// line off, ready to switch on
 	ST_ON,				// relay closed, line powered
+	ST_JETSON_OFF,		// line still powered, waiting for the Jetson to halt
 	ST_STOPPING,		// relay open, waiting for the bus to discharge
 } state_t;
 
@@ -56,6 +74,8 @@ static const char *state_name(state_t s)
 		return "OFF";
 	case ST_ON:
 		return "ON";
+	case ST_JETSON_OFF:
+		return "JETSON_OFF";
 	case ST_STOPPING:
 		return "STOPPING";
 	}
@@ -65,6 +85,8 @@ static const char *state_name(state_t s)
 static state_t state;
 static int undervolt_ms;
 static bool cooldown_notified;
+static bool jetson_acked;
+static int jetson_wait_ms; // time left in ST_JETSON_OFF
 
 static void set_state(state_t next)
 {
@@ -116,25 +138,58 @@ static void on_off(bool sw_on)
 	}
 }
 
-static void on_on(bool sw_on, const gbl_vsens_t *bus)
+/* Line lost while powered (relay dropped out, source missing, overload):
+ * after UNDERVOLT_MS opens everything and locks until the switch goes OFF.
+ * Returns true if it acted. */
+static bool check_undervoltage(const gbl_vsens_t *bus)
 {
-	if (!sw_on)
-	{
-		gbl_power_shutdown();
-		set_state(ST_STOPPING);
-		return;
-	}
-
-	// Line lost (relay dropped out, source missing, overload): open everything.
 	bool low = !bus->valid || bus->min < V_MIN_ON;
 	undervolt_ms = low ? undervolt_ms + LOOP_PERIOD_MS : 0;
-	if (undervolt_ms >= UNDERVOLT_MS)
+	if (undervolt_ms < UNDERVOLT_MS)
+		return false;
+
+	gbl_power_off();
+	ESP_LOGE(TAG, "Undervoltage while the line is on: line opened, turn the switch OFF");
+	gbl_vsens_log("fault", bus);
+	set_state(ST_WAIT_SWITCH_OFF);
+	return true;
+}
+
+static void on_on(bool sw_on, const gbl_vsens_t *bus)
+{
+	if (check_undervoltage(bus))
+		return;
+	if (sw_on)
+		return;
+
+	// Switch OFF: ask the Jetson to halt before cutting its power.
+	ESP_LOGI(TAG, "Switch OFF: asking the Jetson to halt");
+	gbl_log_send_line(JETSON_CMD_SHUTDOWN);
+	jetson_acked = false;
+	jetson_wait_ms = JETSON_ACK_MS;
+	set_state(ST_JETSON_OFF);
+}
+
+static void on_jetson_off(const gbl_vsens_t *bus)
+{
+	if (check_undervoltage(bus))
+		return;
+
+	if (!jetson_acked && gbl_log_wait_line(JETSON_REPLY_ACK, 0))
 	{
-		gbl_power_off();
-		ESP_LOGE(TAG, "Undervoltage while ON: line opened, turn the switch OFF");
-		gbl_vsens_log("fault", bus);
-		set_state(ST_WAIT_SWITCH_OFF);
+		jetson_acked = true;
+		jetson_wait_ms = JETSON_HALT_MS;
+		ESP_LOGI(TAG, "Jetson halting, line opens in %d s", JETSON_HALT_MS / 1000);
 	}
+
+	jetson_wait_ms -= LOOP_PERIOD_MS;
+	if (jetson_wait_ms > 0)
+		return;
+
+	if (!jetson_acked)
+		ESP_LOGW(TAG, "No reply from the Jetson: opening the line anyway");
+	gbl_power_shutdown();
+	set_state(ST_STOPPING);
 }
 
 static void on_stopping(bool sw_on, const gbl_vsens_t *bus)
@@ -181,6 +236,9 @@ void gbl_run_start(void)
 			break;
 		case ST_ON:
 			on_on(sw_on, &bus);
+			break;
+		case ST_JETSON_OFF:
+			on_jetson_off(&bus); // switch ignored: the shutdown always completes
 			break;
 		case ST_STOPPING:
 			on_stopping(sw_on, &bus);

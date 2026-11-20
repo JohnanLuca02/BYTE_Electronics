@@ -3,6 +3,10 @@
 # (fresh clone, or after deleting sdkconfig). Regenerate with: idf.py save-defconfig
 CONFIG_IDF_TARGET="esp32s3"
 
+# Custom partition table: adds the "log" partition used by gbl_log
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+
 # Console on the native USB port (COM3), not UART0
 CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
 

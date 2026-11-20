@@ -1,0 +1,16 @@
+[Unit]
+Description=GBL power board link (log + shutdown request)
+
+[Service]
+# Header UART (pins 8/10): check the device name with `ls /dev/ttyTHS*`
+Environment=GBL_PORT=/dev/ttyTHS0
+Environment=GBL_LOG_DIR=/var/log/gbl
+# Command that disables all motors (torque off over CAN), run on "relay welded".
+# TO BE SET by the robot software team, e.g.:
+#Environment=GBL_MOTORS_OFF_CMD=/opt/bark/bin/motors_off
+ExecStart=/usr/local/bin/gbl_link.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
