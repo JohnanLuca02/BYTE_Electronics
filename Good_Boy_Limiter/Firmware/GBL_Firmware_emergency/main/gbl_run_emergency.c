@@ -91,6 +91,7 @@
 #define EP_SETTLE_DV 0.1f		// < 0.1 V rise in 200 ms: charge stalled or complete
 #define EP_TIMEOUT_MS 1500		// a stall at ~6 V dissipates ~6.5 W in Rpre1: do not linger
 #define EP_RELAY_SETTLE_MS 100
+#define EP_CLOSE_TIMEOUT_MS 1000 // relay closed: bus must reach EP_V_MIN_CLOSED within this time
 
 static const char *TAG = "run_EMERGENCY";
 
@@ -196,11 +197,20 @@ static gbl_precharge_result_t emergency_precharge(void)
 		}
 	}
 
+	// With the relay closed the bus rises within EP_CLOSE_TIMEOUT_MS
+	// (instantly on the battery, slower on a current-limited bench supply).
 	gbl_power_relay_set(true);
-	vTaskDelay(pdMS_TO_TICKS(EP_RELAY_SETTLE_MS));
-	gbl_vsens_read(&r);
+	int closed_ms = 0;
+	do
+	{
+		vTaskDelay(pdMS_TO_TICKS(EP_SAMPLE_MS));
+		closed_ms += EP_SAMPLE_MS;
+		gbl_vsens_read(&r);
+	} while (r.min < EP_V_MIN_CLOSED && closed_ms < EP_CLOSE_TIMEOUT_MS);
 	if (r.min < EP_V_MIN_CLOSED)
 		return ep_abort("bus still low with the relay closed: relay not closed, battery empty or short", &r);
+	ESP_LOGI(TAG, "Bus above %.1f V %d ms after closing the relay", EP_V_MIN_CLOSED, closed_ms);
+	vTaskDelay(pdMS_TO_TICKS(EP_RELAY_SETTLE_MS)); // contact bounce before Q1 goes off
 	gbl_vsens_log("closed", &r);
 	gbl_power_q1_set(false);
 	return GBL_PRECHARGE_OK;

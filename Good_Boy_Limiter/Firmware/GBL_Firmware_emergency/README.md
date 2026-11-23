@@ -16,7 +16,8 @@ at a few volts and the production firmware correctly refuses to close the relay.
 Only the pre-charge (`emergency_precharge()` in `main/gbl_run_emergency.c`).
 Everything else (switch handling, Jetson shutdown handshake, logging, Q1
 watchdog and cooldown, controlled shutdown) is the production code: the
-drivers are taken unchanged from `../GBL_Firmware/components`.
+drivers in `components/` are a frozen copy of the production ones (nothing is
+shared: changes in `../GBL_Firmware` do not reach this project).
 
 | | Production | Emergency |
 |---|---|---|
@@ -24,7 +25,7 @@ drivers are taken unchanged from `../GBL_Firmware/components`.
 | Timeout | 3 s | 1.5 s (a stall dissipates ~6.5 W in Rpre1) |
 | Short circuit (bus below threshold after 300 ms) | abort (< 5 V) | abort (< 3 V) |
 | PDB mismatch, voltage above battery max | abort | abort |
-| Bus below 19.2 V with the relay closed | - | abort (relay not closed, empty battery, short) |
+| Bus not above 19.2 V within 1 s of closing the relay | - | abort (relay not closed, empty battery, short) |
 
 Battery fixed to **6S** (100k UVLO resistor fitted).
 
