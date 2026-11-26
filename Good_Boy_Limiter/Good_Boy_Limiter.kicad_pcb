@@ -1143,7 +1143,7 @@
 			(uuid "940322c1-7590-443f-8795-7895d9718a7f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2977,7 +2977,7 @@
 			(uuid "ec3e6376-1404-40c1-8bf8-b41944a89a1c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/XT30U_F.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/XT30U_F.step"
 			(offset
 				(xyz 5.5 -4 34)
 			)
@@ -3267,7 +3267,7 @@
 			(uuid "503140c6-229d-400a-9a71-afe12e98a8ca")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4660,7 +4660,7 @@
 			(uuid "9a9bd301-fdee-4903-911b-912e3c4c0da6")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4990,7 +4990,7 @@
 			(uuid "e4283dae-824e-47d1-ab2e-7df1b1270083")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/KEY-SMD_5P-L4.2-W2.8-H1.9-LS4.6-P1.6.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/KEY-SMD_5P-L4.2-W2.8-H1.9-LS4.6-P1.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5933,7 +5933,7 @@
 			(uuid "cc0d1967-008d-423d-9c24-fb17ffefa094")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/CVM_1-178136-3.stp"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CVM_1-178136-3.stp"
 			(offset
 				(xyz 5 0 21.5)
 			)
@@ -7864,7 +7864,7 @@
 			(uuid "e720693e-ffac-40f2-9253-9b707d09da33")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9937,7 +9937,7 @@
 			(uuid "c69aa3db-a7e6-47fb-bf79-aecf1efef0e2")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RES-SMD_L6.4-W3.2-1.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/RES-SMD_L6.4-W3.2-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10855,7 +10855,7 @@
 			(uuid "57c7598e-aa0e-44b6-a2f2-34abd01e049b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/XT30U_F.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/XT30U_F.step"
 			(offset
 				(xyz 5.5 -4 34)
 			)
@@ -11619,7 +11619,7 @@
 			(uuid "118d6d8b-0f3b-437f-a94a-953241b84f62")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-SMD_BD16.0-L17.0-W17.0-H16.5.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CAP-SMD_BD16.0-L17.0-W17.0-H16.5.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13737,7 +13737,7 @@
 			(uuid "8daf6e77-c1e1-4a25-b5d9-1bd56ff2a4e6")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/XT30PW-M--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/XT30PW-M--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 -5 0)
 			)
@@ -15362,7 +15362,7 @@
 			(uuid "06231e34-089c-4abf-ac71-13bcd5d9d9c7")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15887,7 +15887,7 @@
 			(uuid "83c50ee7-274f-4163-8c61-da0b163c41c0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/D2PAK_L10.2-W9.0-P5.08-LS16.9-BR.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/D2PAK_L10.2-W9.0-P5.08-LS16.9-BR.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17686,7 +17686,7 @@
 			(uuid "c111d203-b6c3-4e34-bea3-5983de8be668")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18738,7 +18738,7 @@
 			(uuid "8cd407ea-a562-4b6e-a7a5-069165e7b0a9")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19741,7 +19741,7 @@
 			(uuid "98a6b27f-6136-4be8-bc00-83b23fe23e51")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22802,7 +22802,7 @@
 			(uuid "1fb18c67-b43b-4dd5-bcb3-0b4431c6f7f0")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/XT30U_F.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/XT30U_F.step"
 			(offset
 				(xyz 5.5 -4 34)
 			)
@@ -23356,7 +23356,7 @@
 			(uuid "a449c78e-a5bf-4475-b3a0-9c1b313b9c16")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24723,7 +24723,7 @@
 			(uuid "39227971-3c39-461e-a7a8-4bafd99c9847")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/XT30U_F.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/XT30U_F.step"
 			(offset
 				(xyz 5.5 -4 34)
 			)
@@ -25052,7 +25052,7 @@
 			(uuid "c966ea38-1f4b-44a0-8ae7-c5d4648cf759")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/KEY-SMD_5P-L4.2-W2.8-H1.9-LS4.6-P1.6.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/KEY-SMD_5P-L4.2-W2.8-H1.9-LS4.6-P1.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25957,7 +25957,7 @@
 			(uuid "e6e04da2-ae42-4502-a4fa-5272e2cc73fc")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/CONN-TH_3P-P2.50_A2501WV2-3P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27120,7 +27120,7 @@
 			(uuid "b4bc6091-9557-4ef8-a6d1-825c63b10e2f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12.wrl"
 			(offset
 				(xyz 0 -2.5 0)
 			)
@@ -27859,7 +27859,7 @@
 			(uuid "85f6b09c-4dce-4d49-8f02-1e55d710840c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/IND-SMD_L11.5-W10.0-H4.0.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/IND-SMD_L11.5-W10.0-H4.0.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29248,7 +29248,7 @@
 			(uuid "415acc59-ed85-47cb-ab39-6131af44aea1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1.wrl"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30287,7 +30287,7 @@
 			(uuid "c64b7706-48ed-4186-afcc-777e4fc400a5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/johna/Documents/GitHub/BYTE_Electronics/Global_Libraries/LCSC_Library/easyeda2kicad.3dshapes/RES-TH_BD9.0-L36.5-P42.00-D0.8.step"
+		(model "${KIPRJMOD}/Libraries/LCSC_Library/easyeda2kicad.3dshapes/RES-TH_BD9.0-L36.5-P42.00-D0.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
