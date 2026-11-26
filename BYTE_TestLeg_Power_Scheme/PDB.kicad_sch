@@ -1,0 +1,118 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f20e0f7a-daaf-49c3-b72b-85a9774bb2b3")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CN6_2"
+		(shape input)
+		(at 153.67 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a19d90d-59a7-493a-8c6b-b8d914316401")
+	)
+	(hierarchical_label "CN6_1"
+		(shape input)
+		(at 153.67 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e119f9b-d3ad-4fa1-bf2b-2a2c4b9cbf5d")
+	)
+	(hierarchical_label "CN5_2"
+		(shape input)
+		(at 152.4 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fe98e88-8117-4b72-9fcb-009a22fcedbf")
+	)
+	(hierarchical_label "GND1"
+		(shape input)
+		(at 100.33 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84a51cd9-ce94-4d5f-825c-cc1cbc3084bd")
+	)
+	(hierarchical_label "GND2"
+		(shape input)
+		(at 101.6 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b8e049d-1a76-4375-a53e-fa34a2b3c7a5")
+	)
+	(hierarchical_label "CN7_2"
+		(shape input)
+		(at 153.67 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c52b92e5-6f15-447b-bd78-d79b66d40ab4")
+	)
+	(hierarchical_label "24V_2"
+		(shape input)
+		(at 99.06 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9177149-a6f9-4c11-80cc-7e5e7b4f2606")
+	)
+	(hierarchical_label "CN7_1"
+		(shape input)
+		(at 153.67 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9bcff1b-66e9-4a88-90cf-35534aa5e05e")
+	)
+	(hierarchical_label "24V_1"
+		(shape input)
+		(at 100.33 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f58279fd-f2be-4659-9946-d5f095add242")
+	)
+	(hierarchical_label "CN5_1"
+		(shape input)
+		(at 151.13 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb8b7a84-5dd1-4dbc-b438-a0f331b1e1ce")
+	)
+)
