@@ -1,0 +1,48 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 921929e..16dd7a3 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -433,6 +433,7 @@ set(TGTF042_LIST
+ 	"usb2can"
+ )
+ set(TGTF072_LIST
++	"BYTE_SPIne"
+ 	"CANable_MKS"
+ 	"CONVERTDEVICE_xCAN"
+ 	"DSD_TECH_SH_C30A"
+diff --git a/include/config.h b/include/config.h
+index e3d7cdf..c969634 100644
+--- a/include/config.h
++++ b/include/config.h
+@@ -334,6 +334,31 @@ THE SOFTWARE.
+ 	#define LEDTX_Mode				 GPIO_MODE_OUTPUT_PP
+ 	#define LEDTX_Active_High		 1
+ 
++#elif defined(BOARD_BYTE_SPIne)
++	#define USBD_PRODUCT_STRING_FS	 "BYTE SPIne CAN channel"
++	#define USBD_MANUFACTURER_STRING "Johnan Luca"
++	#define DFU_INTERFACE_STRING_FS	 "BYTE SPIne firmware upgrade interface"
++
++	#define TIM2_CLOCK_SPEED		 48000000
++
++	#define CAN_INTERFACE			 CAN
++	#define CAN_CLOCK_SPEED			 48000000
++	#define NUM_CAN_CHANNEL			 1
++	#define CONFIG_CAN_FILTER		 1
++
++	/* TCAN1042 STB tied to GND via R5: no PHY control GPIO */
++
++	/* LEDs: PA0 -> R1 -> green LED -> GND, PA1 -> R2 -> yellow LED -> GND */
++	#define LEDRX_GPIO_Port			 GPIOA
++	#define LEDRX_Pin				 GPIO_PIN_0
++	#define LEDRX_Mode				 GPIO_MODE_OUTPUT_PP
++	#define LEDRX_Active_High		 1
++
++	#define LEDTX_GPIO_Port			 GPIOA
++	#define LEDTX_Pin				 GPIO_PIN_1
++	#define LEDTX_Mode				 GPIO_MODE_OUTPUT_PP
++	#define LEDTX_Active_High		 1
++
+ #elif defined(BOARD_candleLight)
+ 	#define USBD_PRODUCT_STRING_FS	 "candleLight USB to CAN adapter"
+ 	#define USBD_MANUFACTURER_STRING "bytewerk"

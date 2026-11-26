@@ -23,4 +23,4 @@ Repository for everything concerning the electronics (PCB, Electrical schemes, B
   
 **FOR EASYEDA2KICAD PLUG-IN**
 
-easyeda2kicad --full --lcsc_id [LCSC CODE] --output .
+easyeda2kicad --full --lcsc_id [LCSC CODE] --output Good_Boy_Limiter/Libraries/LCSC_Library/easyeda2kicad

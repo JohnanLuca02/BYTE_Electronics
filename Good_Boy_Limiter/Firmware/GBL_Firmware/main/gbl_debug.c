@@ -16,6 +16,7 @@
 #include "gbl_power.h"
 #include "gbl_vsens.h"
 #include "gbl_switch.h"
+#include "gbl_log.h"
 
 #define LOOP_PERIOD_MS 20
 
@@ -30,6 +31,9 @@ static void print_help(void)
 		   "  P  Q1 on      p  Q1 off\n"
 		   "  R  relay on   r  relay off\n"
 		   "  V  PDB voltages + switch state\n"
+		   "  L  print the stored log (flash)\n"
+		   "  J  test the Jetson link: send GBL:SHUTDOWN, wait for JETSON:ACK\n"
+		   "     (the Jetson really halts; the line stays on)\n"
 		   "  ?  this help\n\n");
 }
 
@@ -68,6 +72,16 @@ static void handle_command(int c)
 		ESP_LOGI(TAG, "Switch %s", gbl_switch_raw_on() ? "ON" : "OFF");
 		break;
 	}
+	case 'L':
+		gbl_log_dump(stdout);
+		break;
+	case 'J':
+		gbl_log_send_line("GBL:SHUTDOWN");
+		if (gbl_log_wait_line("JETSON:ACK", 2000))
+			ESP_LOGI(TAG, "Jetson acknowledged and is halting");
+		else
+			ESP_LOGW(TAG, "No reply from the Jetson within 2 s");
+		break;
 	case '?':
 		print_help();
 		break;

@@ -76,10 +76,19 @@ of the application code:
 WAIT_SWITCH_OFF --switch OFF--> OFF --switch ON--> pre-charge --ok--> ON
        ^                         ^                     |               |
        +---------- fault --------|---------------------+  switch OFF   |
-       +---- undervoltage in ON -|-------------------------------------+
-                                 |                                     v
+       +---- undervoltage -------|----------------------------------+  v
+                                 |                               JETSON_OFF
+                                 |                                     | Jetson halted
+                                 |                                     v (or no reply)
                                  +--- bus < 5 V (or switch ON) --- STOPPING
 ```
+
+- **Switch OFF halts the Jetson first.** The Jetson is powered downstream of
+  the relay, so cutting the line would cut it while writing to disk. The GBL
+  sends `GBL:SHUTDOWN` on the J2 UART; the Jetson replies `JETSON:ACK` and runs
+  `poweroff`; the GBL keeps the line on for 20 s, then opens it. No reply
+  within 2 s (Jetson off or not connected): the line opens right away. Once
+  requested, the shutdown always completes, even if the switch goes back ON.
 
 - Switch already ON at boot: nothing starts until it is cycled OFF -> ON
   (a reset never re-energises the line on its own).
@@ -101,9 +110,59 @@ Manual control from the monitor. The Rpre1 protections stay active.
 | `P` / `p` | Q1 on / off (watchdog 3.5 s) |
 | `R` / `r` | Relay on / off (**no protection**: closing on empty PDBs = full inrush) |
 | `V` | PDB voltages and switch state |
+| `L` | Print the stored log (flash) |
+| `J` | Test the Jetson link: send `GBL:SHUTDOWN`, wait for `JETSON:ACK` (**the Jetson really halts**) |
 | `?` | Help |
 
 Switch changes are logged automatically, which is handy to check the wiring.
+
+### Logging (`gbl_log.c`)
+
+Every `ESP_LOG` message goes to three places:
+
+| Where | What for |
+|---|---|
+| USB console (COM3) | development, as before |
+| **Log file in flash** (`/log/gbl.log`, SPIFFS partition `log`) | black box: survives resets and power loss |
+| **J2 UART**, live | the robot computer (Jetson Orin Nano) saves it to a file |
+
+- Each boot starts with `=== boot, reset reason: ... ===` (power-on, brownout,
+  watchdog, crash...), so you can tell why the previous session ended.
+- The file rotates at 128 KB (`gbl.log` -> `gbl.1.log`): the last ~256 KB are kept.
+- Only events are logged (a few lines per power cycle), so flash wear is negligible.
+- Logging never blocks the application: lines go through a RAM ring buffer
+  and a low-priority task writes them. If the buffer is full a line is dropped.
+
+**Reading the stored log:** send the line `L` on the J2 UART (the Jetson service
+does it at every boot), or press `L` in the debug firmware. Output is framed by
+`=== stored log (older first) ===` and `=== end of stored log ===`.
+
+**Jetson wiring** (115200 8N1, 3.3 V on both sides, no level shifter):
+
+| GBL J2 | Jetson Orin Nano 40-pin header |
+|---|---|
+| pin 1 TX (GPIO43) | pin 10 UART1 RX |
+| pin 3 RX (GPIO44) | pin 8 UART1 TX |
+| pin 2 GND | pin 6 GND |
+
+**Jetson service** (`tools/jetson/`): saves the live log, fetches the stored
+log at every Jetson boot (so a failed pre-charge while the Jetson was off is
+recovered), and handles the shutdown request.
+
+```
+sudo cp tools/jetson/gbl_link.sh /usr/local/bin/ && sudo chmod +x /usr/local/bin/gbl_link.sh
+sudo cp tools/jetson/gbl-link.service /etc/systemd/system/
+sudo systemctl enable --now gbl-link
+```
+
+- Logs: `/var/log/gbl/gbl.log` (live, timestamped by the Jetson) and
+  `/var/log/gbl/gbl_stored.log` (GBL black box, rewritten at every Jetson boot).
+- Serial port: `GBL_PORT` in the service file (default `/dev/ttyTHS0`, the
+  header UART on Orin Nano; check with `ls /dev/ttyTHS*`). The port must not be
+  used by a serial console (`nvgetty`).
+
+At power-on the ESP32 ROM bootloader also prints a few lines on this UART:
+this is normal.
 
 ---
 
@@ -118,6 +177,9 @@ GBL_Firmware/
     gbl_run.c / .h            production state machine
     gbl_debug.c / .h          debug console
     Kconfig.projbuild         "GBL firmware" menu in menuconfig
+  partitions.csv              flash layout: application + "log" partition
+  components/gbl_log/         logging: flash black box + J2 UART stream / commands
+  tools/jetson/               Jetson service: log capture + shutdown handshake
   components/gbl_hw/          hardware drivers (no application logic)
     gbl_power.c               Q1, relay, pre-charge and shutdown sequences, Rpre1 protection
     gbl_vsens.c               PDB voltage sensing (ADC, calibration)
@@ -135,7 +197,8 @@ Layering rules:
 - Headers expose only types and functions. Pins, timings and thresholds are
   `#define`s at the top of each `.c`.
 - Code, comments and logs in English. Logs go through `ESP_LOG*` (tags
-  `power`, `vsens`, `run`, `debug`).
+  `power`, `vsens`, `run`, `debug`, `log`): never `printf`, or the line does
+  not reach the log file and the Jetson.
 
 ---
 
@@ -215,6 +278,17 @@ the debug firmware (`S`, `X`, `V`) before using the production firmware.
 ---
 
 ## Hardware notes
+
+- **Open issue: pre-charge with the motors connected.** Each GDS68 driver
+  draws ~2 W as soon as its logic turns on, during the pre-charge. Through
+  Rpre1 = 50 Ω at most V²/4R ≈ 2.9 W reach the load at 24 V: one driver
+  charges, two do not. No resistor value fixes 12 drivers (~25 W), and
+  removing Rpre1 to let the LM5069 current-limit the charge is outside the
+  STB15810 SOA (no curve beyond 10 ms). Needs a hardware change: GBL 2.0
+  changes (Rpre1 removed, Ctimer 6.8 µF, linear-mode Q1, ...) are in
+  `GBL_Documentation/main.tex`, section "Required Changes for GBL 2.0".
+  Until then the robot runs `../GBL_Firmware_emergency`, **6S only: never at
+  48 V (12S/13S)**, see its README.
 
 - **Rshort1 must not be fitted (DNP).** With TIMER shorted to GND the LM5069
   never ends its insertion time and Q1 never turns on.

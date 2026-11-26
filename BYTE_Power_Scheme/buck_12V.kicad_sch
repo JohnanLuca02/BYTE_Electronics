@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ad0fe40-95fc-44e3-bc02-f3daae971e6f")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "USB"
+		(shape bidirectional)
+		(at 74.93 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7623e899-3481-48f4-a425-313909c2186d")
+	)
+	(hierarchical_label "48V-24V"
+		(shape input)
+		(at 74.93 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "920fbe10-16fb-4f86-b55f-6177f28bcd34")
+	)
+	(hierarchical_label "GND_Jetson"
+		(shape output)
+		(at 74.93 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d4b2823-866f-4d55-acaa-fff99125c07e")
+	)
+	(hierarchical_label "12V"
+		(shape output)
+		(at 74.93 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad9ea36c-c31d-4414-8007-78c629e2f178")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 74.93 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4235567-759e-4414-b4f4-9716e114e61a")
+	)
+)

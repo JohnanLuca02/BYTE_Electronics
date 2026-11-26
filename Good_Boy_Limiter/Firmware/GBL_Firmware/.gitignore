@@ -79,3 +79,6 @@ Desktop.ini
 
 # Datasheets and schematics: kept locally, not tracked
 *.pdf
+
+# The repo root ignores *.csv (BOM exports); the partition table must be tracked
+!partitions.csv

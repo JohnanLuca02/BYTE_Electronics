@@ -1,0 +1,6 @@
+# Name,   Type, SubType, Offset,  Size,  Flags
+# 2 MB flash: application (1 MB) + log file system (512 KB, see gbl_log.c).
+nvs,      data, nvs,     0x9000,  0x6000,
+phy_init, data, phy,     0xf000,  0x1000,
+factory,  app,  factory, 0x10000, 1M,
+log,      data, spiffs,  ,        512K,
