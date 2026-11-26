@@ -5,6 +5,13 @@
 > pre-charge stage is redesigned. Then delete this folder and flash
 > `../GBL_Firmware`.
 
+> **NEVER at 48 V (12S/13S).** On 6S the relay closes on a ~18 V step
+> (~1.3 J) and has survived repeated on/off cycles with all the motors
+> connected. On 12S the step would be ~42 V (~7 J, 2.3x the peak current):
+> the relay contacts may weld. The firmware aborts above 26.1 V: do not
+> raise this limit. Wait for the GBL 2.0 (see `../../GBL_Documentation`,
+> section "Required Changes for GBL 2.0").
+
 ## Why it exists
 
 With the 12 GDS68 drivers connected, the drivers draw more power during the

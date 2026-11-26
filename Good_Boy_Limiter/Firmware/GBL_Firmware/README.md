@@ -284,7 +284,11 @@ the debug firmware (`S`, `X`, `V`) before using the production firmware.
   Rpre1 = 50 Ω at most V²/4R ≈ 2.9 W reach the load at 24 V: one driver
   charges, two do not. No resistor value fixes 12 drivers (~25 W), and
   removing Rpre1 to let the LM5069 current-limit the charge is outside the
-  STB15810 SOA (no curve beyond 10 ms). Needs a hardware change.
+  STB15810 SOA (no curve beyond 10 ms). Needs a hardware change: GBL 2.0
+  changes (Rpre1 removed, Ctimer 6.8 µF, linear-mode Q1, ...) are in
+  `GBL_Documentation/main.tex`, section "Required Changes for GBL 2.0".
+  Until then the robot runs `../GBL_Firmware_emergency`, **6S only: never at
+  48 V (12S/13S)**, see its README.
 
 - **Rshort1 must not be fitted (DNP).** With TIMER shorted to GND the LM5069
   never ends its insertion time and Q1 never turns on.
