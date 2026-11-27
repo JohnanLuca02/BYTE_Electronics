@@ -7,7 +7,7 @@
 	(title_block
 		(title "BYTE Power Scheme")
 		(date "2026-11-11")
-		(company "AI Team - EPFL")
+		(company "AI Team Robotics - EPFL")
 		(comment 1 "Author: Johnan Luca")
 		(comment 2 "Project: BARK")
 	)
@@ -436,6 +436,251 @@
 						)
 					)
 					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4804,6 +5049,18 @@
 		(uuid 7589312c-a69b-4c71-8811-d5334b3b8038)
 	)
 	(rectangle
+		(start 140.97 294.64)
+		(end 181.61 355.6)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca90be71-60e5-475b-92f8-8e15d59c0f8a)
+	)
+	(rectangle
 		(start 19.05 119.38)
 		(end 95.25 134.62)
 		(stroke
@@ -4815,14 +5072,28 @@
 		)
 		(uuid e5cbf267-5fd4-4515-90e3-03e389ecddae)
 	)
-	(text "- PDBx are connected with 14AWG\n   - Vsensex are connected with 20AWG"
+	(text "W20 - Flat ribbon cable, 40-pin, 2.54 mm pitch, IDC F/F, 1:1\nSPIne P2  <->  Jetson J12 (40-pin expansion header)\nLength: 15 cm\nRed stripe = pin 1 on both ends. Check orientation before power-up!\nP2 pinout matches Jetson J12 (straight-through)."
 		(exclude_from_sim no)
-		(at 53.34 87.63 0)
+		(at 212.598 318.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "23859daf-2b63-46ff-82b0-4a3f990cfc31")
+	)
+	(text "- GBL -> PDBx is 14AWG\n- GBL -> Vsensex is 20AWG"
+		(exclude_from_sim no)
+		(at 29.718 86.868 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(color 255 0 8 1)
 			)
+			(justify left)
 		)
 		(uuid "41708341-21fd-4a72-82d4-824867afbe27")
 	)
@@ -4846,7 +5117,7 @@
 		)
 		(uuid "5bd62c75-f820-4044-a30e-5612c2345773")
 	)
-	(text "- Motors are connected with 14AWG\n"
+	(text "- PDB -> Motors is 14AWG\n"
 		(exclude_from_sim no)
 		(at 56.388 127.254 0)
 		(effects
@@ -4886,6 +5157,31 @@
 			)
 		)
 		(uuid "c4cd2370-8213-4ec4-80e5-9d0a5b747f1c")
+	)
+	(text "Shield connection!\nNo cables, the Rib\nattaches direclty\non top of the SPIne"
+		(exclude_from_sim no)
+		(at 149.606 322.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "cf246e82-97b0-43e7-96cf-0e7ebe1b1f59")
+	)
+	(text "Stack SPIne + Rib"
+		(exclude_from_sim no)
+		(at 162.56 359.918 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f72e9ef1-14cd-4006-9c20-35d912d89175")
 	)
 	(junction
 		(at 138.43 58.42)
@@ -5571,6 +5867,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 311.15) (xy 260.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aee7955-c0db-4f32-9d52-a89bc58b55ed")
+	)
+	(wire
+		(pts
 			(xy 143.51 116.84) (xy 153.67 116.84)
 		)
 		(stroke
@@ -5871,6 +6177,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 340.36) (xy 186.69 340.36)
+		)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(uuid "3f119cb4-508e-42a2-8c7d-8b21e118fd3b")
+	)
+	(wire
+		(pts
 			(xy 109.22 201.93) (xy 120.65 201.93)
 		)
 		(stroke
@@ -5938,6 +6254,16 @@
 			(type default)
 		)
 		(uuid "49f8001f-b0af-4a05-9e10-f17dbcc3181e")
+	)
+	(wire
+		(pts
+			(xy 162.56 335.28) (xy 186.69 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c423132-f3da-4ce7-b0ed-aa064cc4421a")
 	)
 	(wire
 		(pts
@@ -6081,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 99.06 41.91)
+			(xy 101.6 38.1) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6181,7 +6507,28 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 99.06 38.1)
+			(xy 162.56 332.74) (xy 186.69 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ee471b-0c3c-4314-9426-6751e3f230ce")
+	)
+	(wire
+		(pts
+			(xy 162.56 337.82) (xy 186.69 337.82)
+		)
+		(stroke
+			(width 0.2032)
+			(type default)
+			(color 255 118 0 1)
+		)
+		(uuid "69ac2a21-5a35-49ce-a62e-1d9d1f672d4b")
+	)
+	(wire
+		(pts
+			(xy 85.09 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6301,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 99.06 48.26)
+			(xy 85.09 48.26) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6352,7 +6699,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 283.21) (xy 175.26 292.1)
+			(xy 175.26 283.21) (xy 175.26 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6392,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 303.53) (xy 243.84 303.53)
+			(xy 179.07 308.61) (xy 243.84 308.61)
 		)
 		(stroke
 			(width 0)
@@ -6492,6 +6839,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 311.15) (xy 260.35 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8322c63c-82ba-438c-bf50-bda97989072b")
+	)
+	(wire
+		(pts
 			(xy 100.33 161.29) (xy 115.57 161.29)
 		)
 		(stroke
@@ -6553,7 +6910,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 279.4) (xy 168.91 292.1)
+			(xy 168.91 279.4) (xy 168.91 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6593,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 279.4) (xy 166.37 292.1)
+			(xy 166.37 279.4) (xy 166.37 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6603,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 99.06 44.45)
+			(xy 101.6 48.26) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6773,7 +7130,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 279.4) (xy 162.56 292.1)
+			(xy 162.56 279.4) (xy 162.56 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6783,7 +7140,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 279.4) (xy 160.02 292.1)
+			(xy 160.02 279.4) (xy 160.02 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6793,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 283.21) (xy 172.72 292.1)
+			(xy 172.72 283.21) (xy 172.72 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6833,7 +7190,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 283.21) (xy 156.21 292.1)
+			(xy 156.21 283.21) (xy 156.21 297.18)
 		)
 		(stroke
 			(width 0)
@@ -6883,7 +7240,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 283.21) (xy 153.67 292.1)
+			(xy 153.67 283.21) (xy 153.67 297.18)
 		)
 		(stroke
 			(width 0)
@@ -7063,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 303.53) (xy 243.84 48.26)
+			(xy 243.84 308.61) (xy 243.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8207,6 +8564,37 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 199.39 311.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a9a6fc3-4819-446a-93b8-5ccd4880a35d")
+		(property "Netclass" "RIBBON"
+			(at 200.0885 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -203.2 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 191.77 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8486,7 +8874,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 90.17 48.26 180)
+		(at 92.71 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8495,7 +8883,7 @@
 		)
 		(uuid "9804c563-dbb8-4dc4-8b38-7ce796d3f00c")
 		(property "Netclass" "8AWG-"
-			(at 87.63 52.832 0)
+			(at 90.17 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +8892,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -39.37 30.48 0)
+			(at -36.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8966,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 91.44 38.1 0)
+		(at 93.98 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,7 +8975,7 @@
 		)
 		(uuid "b5c8438e-502b-40d1-81cc-b64bcccd7477")
 		(property "Netclass" "8AWG+"
-			(at 89.154 34.036 0)
+			(at 91.694 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8984,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 7.62 16.51 0)
+			(at 10.16 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +9534,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 104.14 41.91 0)
+		(at 106.68 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9154,16 +9542,17 @@
 		(dnp no)
 		(uuid "24636583-3245-44af-b0d7-59c41cb7106b")
 		(property "Reference" "J1"
-			(at 100.838 36.068 0)
+			(at 103.378 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "IC5f"
-			(at 100.33 38.354 0)
+			(at 102.87 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +9561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 41.91 0)
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,7 +9570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 41.91 0)
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9190,7 +9579,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 104.14 41.91 0)
+			(at 106.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,15 +9941,16 @@
 		(dnp no)
 		(uuid "626ae755-383c-4fdc-9d70-bf0be73c16ea")
 		(property "Reference" "J2"
-			(at 108.966 35.814 0)
+			(at 111.76 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "IC5m"
-			(at 108.966 38.354 0)
+			(at 111.76 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +10870,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 82.55 43.18 0)
+		(at 85.09 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10488,7 +10878,7 @@
 		(dnp no)
 		(uuid "df8a90b0-e194-40c6-89fc-640ea04d0bd5")
 		(property "Reference" "BT1"
-			(at 86.36 41.3384 0)
+			(at 88.9 41.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +10887,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 86.36 43.8784 0)
+			(at 88.9 43.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 41.656 90)
+			(at 85.09 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 41.656 90)
+			(at 85.09 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +10914,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 82.55 43.18 0)
+			(at 85.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,6 +10932,138 @@
 			(project "BYTE_Power_Scheme"
 				(path "/c856c6b5-f022-44e8-a973-0606185d5af6"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 148.59 322.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecb48123-8160-4e70-8b7e-66d33c7530b0")
+		(property "Reference" "P1"
+			(at 145.796 326.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 149.8599 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 148.59 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8af91498-63e3-4fff-ad14-3e95ba01c644")
+		)
+		(instances
+			(project ""
+				(path "/c856c6b5-f022-44e8-a973-0606185d5af6"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 322.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee2c468c-8421-4b15-8e3d-b5851753a81d")
+		(property "Reference" "P3"
+			(at 145.288 319.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 146.05 321.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 148.59 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a310792-6a94-4df9-a4c3-e4dc3c95d273")
+		)
+		(instances
+			(project ""
+				(path "/c856c6b5-f022-44e8-a973-0606185d5af6"
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -10623,8 +11145,8 @@
 		)
 	)
 	(sheet
-		(at 149.86 292.1)
-		(size 29.21 16.51)
+		(at 146.05 297.18)
+		(size 33.02 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10638,7 +11160,7 @@
 		)
 		(uuid "23870c68-f47e-4974-92a9-fb731a1633e0")
 		(property "Sheetname" "BYTE_SPIne"
-			(at 148.59 305.308 90)
+			(at 144.78 310.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +11169,7 @@
 			)
 		)
 		(property "Sheetfile" "bytespine.kicad_sch"
-			(at 149.86 309.1946 0)
+			(at 146.05 314.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +11179,7 @@
 			)
 		)
 		(pin "CAN_H3" bidirectional
-			(at 166.37 292.1 90)
+			(at 166.37 297.18 90)
 			(uuid "f96b6125-2079-4b49-b294-4979a241a364")
 			(effects
 				(font
@@ -10667,7 +11189,7 @@
 			)
 		)
 		(pin "CAN_L3" bidirectional
-			(at 168.91 292.1 90)
+			(at 168.91 297.18 90)
 			(uuid "f12fc719-46de-4043-a726-c52a369dee08")
 			(effects
 				(font
@@ -10677,7 +11199,7 @@
 			)
 		)
 		(pin "USB-C" bidirectional
-			(at 179.07 303.53 0)
+			(at 179.07 308.61 0)
 			(uuid "b3e3a403-a4f9-4ddd-ac69-95c17c7b4a28")
 			(effects
 				(font
@@ -10687,7 +11209,7 @@
 			)
 		)
 		(pin "CAN_H1" bidirectional
-			(at 153.67 292.1 90)
+			(at 153.67 297.18 90)
 			(uuid "20d73386-b188-4c08-b454-194253917b19")
 			(effects
 				(font
@@ -10697,7 +11219,7 @@
 			)
 		)
 		(pin "CAN_L2" bidirectional
-			(at 162.56 292.1 90)
+			(at 162.56 297.18 90)
 			(uuid "09136960-0e3f-4fa1-8896-fe82f14593d8")
 			(effects
 				(font
@@ -10707,7 +11229,7 @@
 			)
 		)
 		(pin "CAN_H2" bidirectional
-			(at 160.02 292.1 90)
+			(at 160.02 297.18 90)
 			(uuid "cae26953-bb21-49e8-952d-4871970ab577")
 			(effects
 				(font
@@ -10717,7 +11239,7 @@
 			)
 		)
 		(pin "CAN_H4" bidirectional
-			(at 172.72 292.1 90)
+			(at 172.72 297.18 90)
 			(uuid "5e5abca8-5467-493e-84fb-1b3935c7d94d")
 			(effects
 				(font
@@ -10727,7 +11249,7 @@
 			)
 		)
 		(pin "CAN_L4" bidirectional
-			(at 175.26 292.1 90)
+			(at 175.26 297.18 90)
 			(uuid "8786112e-bbbb-4967-822e-2447443fc8c8")
 			(effects
 				(font
@@ -10737,8 +11259,28 @@
 			)
 		)
 		(pin "CAN_L1" bidirectional
-			(at 156.21 292.1 90)
+			(at 156.21 297.18 90)
 			(uuid "b231b57d-71c2-406e-b5e6-5034b40219a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2x10 Male Header" output
+			(at 148.59 317.5 270)
+			(uuid "e5bbeb29-3acc-44db-a228-01eb9019e78d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2x20 Male Header" output
+			(at 179.07 311.15 0)
+			(uuid "4cbc4330-35d5-4fda-86c3-864441a33cca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,8 +11844,8 @@
 		)
 	)
 	(sheet
-		(at 245.11 38.1)
-		(size 12.7 12.7)
+		(at 245.11 26.67)
+		(size 21.59 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11318,7 +11860,7 @@
 		)
 		(uuid "4319daa2-b231-44bb-b885-72fbd09c0c7e")
 		(property "Sheetname" "Jetson"
-			(at 245.11 37.3884 0)
+			(at 245.11 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,10 +11898,195 @@
 				(justify left)
 			)
 		)
+		(pin "J12 - 40-pin header" input
+			(at 260.35 50.8 270)
+			(uuid "15cd15bf-0d5b-4c1f-92b4-35fced74d064")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "BYTE_Power_Scheme"
 				(path "/c856c6b5-f022-44e8-a973-0606185d5af6"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 327.66)
+		(size 16.51 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8306f828-dcd3-48b4-b65a-6f05fea37773")
+		(property "Sheetname" "BYTE_Rib"
+			(at 145.542 338.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "byterib.kicad_sch"
+			(at 146.05 342.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2x10 Female Header" input
+			(at 148.59 327.66 90)
+			(uuid "1142a054-8f26-4523-b14c-ab3f5f9068aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA1" input
+			(at 162.56 332.74 0)
+			(uuid "8df052a7-cf45-41ae-bc46-75b72117359b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL1" input
+			(at 162.56 335.28 0)
+			(uuid "15fd4bcd-3149-4997-932f-6a4b75e7d5a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" output
+			(at 162.56 337.82 0)
+			(uuid "a6c91c2c-8af4-42dd-996b-1c3b615a064b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_I2C1" input
+			(at 162.56 340.36 0)
+			(uuid "fcf1787d-90a3-4b0e-98fd-9020299f53ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BYTE_Power_Scheme"
+				(path "/c856c6b5-f022-44e8-a973-0606185d5af6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 330.2)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae37cf62-feac-44af-ab7a-4aef264fcb98")
+		(property "Sheetname" "IMU"
+			(at 186.69 329.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 186.69 343.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3V3" input
+			(at 186.69 337.82 180)
+			(uuid "c58ad63b-dd3d-4b48-92e8-7a00b5c048b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 186.69 340.36 180)
+			(uuid "e7fe980f-797e-4cbd-9da7-56bdae44372a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 186.69 335.28 180)
+			(uuid "f5c6d2a0-24be-43d0-ac6d-f4baa4f801d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 186.69 332.74 180)
+			(uuid "d150a24b-ca49-426c-b4a8-1a8367750ee7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BYTE_Power_Scheme"
+				(path "/c856c6b5-f022-44e8-a973-0606185d5af6"
+					(page "11")
 				)
 			)
 		)
