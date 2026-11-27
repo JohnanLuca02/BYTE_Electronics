@@ -1,0 +1,33 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\BYTE_Rib\.\Manufacturing\Pick Place\Pick Place for BYTE_Rib.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       14.11.26
+Time:       19:23
+Revision:   7f8de7d08dc0ed0c18366ffd0b18273ad538ff6d
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation"
+"C1","2.2uF","TopLayer","CAPC1608X94X35NL15T15","28.6000","6.9000","0"
+"J3","691210910002","TopLayer","691210910002","4.0000","35.7300","90"
+"J1","691210910002","TopLayer","691210910002","4.0000","44.7300","90"
+"R1","1k","TopLayer","RESC0603(1608)_L","14.5000","10.2000","225"
+"P1","61302021821","TopLayer","61302021821","13.6700","5.7200","180"
+"J6","S6B-PH-K-S(LF)(SN)","TopLayer","JST_S6B-PH-K-S(LF)(SN)","6.9500","20.0000","270"
+"J5","S5B-PH-K-S(LF)(SN)","TopLayer","JST_S5B-PH-K-S(LF)(SN)","6.9500","56.5000","270"
+"J4","S4B-PH-K-S(LF)(SN)","TopLayer","JST_S4B-PH-K-S(LF)(SN)","31.2000","27.6000","90"
+"J2","S4B-PH-K-S(LF)(SN)","TopLayer","JST_S4B-PH-K-S(LF)(SN)","31.2000","15.6000","90"
+"D4","USBLC6-4SC6","TopLayer","FP-SOT23-6L-MFG","12.0000","20.0000","0"
+"D3","USBLC6-4SC6","TopLayer","FP-SOT23-6L-MFG","26.7000","21.6000","180"
+"D2","USBLC6-4SC6","TopLayer","FP-SOT23-6L-MFG","10.1500","40.0000","0"
+"D1","USBLC6-4SC6","TopLayer","FP-SOT23-6L-MFG","13.9000","57.5000","0"
+"C8","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","9.4000","23.5000","90"
+"C7","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","33.8000","21.6000","0"
+"C6","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","15.4000","19.9000","0"
+"C5","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","23.2000","21.6000","180"
+"C4","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","28.1000","12.9000","180"
+"C3","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","13.7500","40.0000","0"
+"C2","Capacitor 100 nF +/-10% 50 V 0603","TopLayer","CAPC1608X90X40NL10T20","17.3000","57.5000","0"

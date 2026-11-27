@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BYTE_Rib.PcbDoc   14.11.2026  19:23:13
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : BYTE_Rib-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             90        PTH        18.87inch (479.22mm)
+T2      28mil (0.711mm)                                           Round             19        PTH        5.89inch (149.61mm)
+T3      32mil (0.8mm)                                             Round             11        PTH        1.79inch (45.50mm)
+T4      34mil (0.86mm)                                            Round             8         PTH        0.71inch (18.00mm)
+T5      40mil (1.02mm)                                            Round             20        PTH        2.20inch (55.88mm)
+T6      51mil (1.3mm)                                             Round             4         PTH        0.45inch (11.54mm)
+T7      126mil (3.2mm)                                            Round             2         PTH        2.60inch (66.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              154
+
+Total Processing Time (hh:mm:ss) : 00:00:00
