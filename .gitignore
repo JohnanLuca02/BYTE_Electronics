@@ -32,6 +32,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+# ...but keep BOM and pick & place files, needed to order the boards
+!*BOM*.csv
+!*Bill of Materials*.csv
+!*Pick Place*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip

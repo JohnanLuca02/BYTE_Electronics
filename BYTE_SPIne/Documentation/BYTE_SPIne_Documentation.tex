@@ -56,7 +56,7 @@
     \centering
     \vspace*{2cm}
 
-    \includegraphics[width=10cm]{BYTE_SPIne_render.png}
+    \includegraphics[width=12cm, page=3, trim=242 285 316 118, clip]{BYTE_SPIne_Drawings.pdf}
 
     \vspace{2cm}
 
@@ -774,7 +774,7 @@ the geometry of the pairs and the stack-up entered in the design.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth, trim=28 114 100 12, clip]{BYTE_SPIne_Stackup.pdf}
+\includegraphics[width=0.75\textwidth, page=1, trim=34 119 103 14, clip]{BYTE_SPIne_Drawings.pdf}
 \caption{Layer stack and differential impedance profile (Altium Draftsman). The USB pairs
 (\qty{0.25}{mm} width, \qty{0.15}{mm} gap) are routed only on L1 and L4, where they reach \qty{90.18}{\ohm} (target
 \qty{90}{\ohm} $\pm\qty{10}{\percent}$). The inner-layer rows belong to the same profile but are not used.}
@@ -793,30 +793,11 @@ from the Jetson side to the motor side:
 
 \begin{figure}[H]
 \centering
-\begin{tikzpicture}[font=\scriptsize, x=1.05cm, y=1.6cm]
-    \draw[rounded corners=3pt] (0,0) rectangle (10.5,4.4);
-    \foreach \i/\name in {0/A1, 1/A2, 2/B3, 3/B4} {
-        \pgfmathsetmacro{\x}{0.08 + \i*2.6}
-        \draw[fill=blue!6] (\x,1.85) rectangle ++(2.5,2.5);
-        \draw[fill=gray!40] (\x+0.9,3.95) rectangle ++(0.7,0.4);
-        \node at (\x+1.25,3.65) {J1};
-        \node at (\x+1.25,3.0) {\small\textbf{CAN \name}};
-        \node[align=center] at (\x+1.25,2.5) {MCU + TCAN\\termination};
-    }
-    \draw[fill=green!10] (4.0,0.95) rectangle ++(1.6,0.6) node[midway, align=center] {USB hub\\U4};
-    \draw[fill=red!10] (6.6,0.85) rectangle ++(2.5,0.7) node[midway, align=center] {OR-ing, LDO\\test points};
-    \draw[fill=gray!35] (9.8,0.65) rectangle ++(0.5,1.05) node[midway, rotate=90] {USB-C};
-    \draw[fill=gray!25] (0.85,0.1) rectangle ++(5.6,0.55) node[midway] {P2 -- Jetson J12 ($2{\times}20$)};
-    \draw[fill=gray!25] (6.55,0.1) rectangle ++(3.15,0.55) node[midway] {P3 breakout ($2{\times}10$)};
-
-    \draw[-{Stealth[length=5pt]}] (11.0,0.4) -- (11.0,4.1);
-    \node[anchor=west] at (11.05,4.3) {motor side};
-    \node[anchor=west] at (11.05,0.15) {Jetson side};
-    \node[anchor=west, align=left] at (11.05,2.2) {signal flow\\Jetson $\to$ motors};
-\end{tikzpicture}
-\caption{Floorplan (schematic, not to scale in detail). The four identical channels are placed in
-a row; the Jetson header, the breakout, the hub and the power stage share the bottom strip; the
-CAN connectors are on the top edge.}
+\includegraphics[width=\textwidth, page=2, trim=254 227 275 158, clip]{BYTE_SPIne_Drawings.pdf}
+\caption{Floorplan: assembly drawing of the top side (Altium Draftsman). The four identical channels
+(CAN A1, A2, B3, B4) are placed in a row with their CAN connectors on the top edge (motor side); the
+Jetson header P2, the breakout P3, the USB hub U4, the power stage and the USB-C connector J2 share
+the bottom strip (Jetson side).}
 \label{fig:floorplan}
 \end{figure}
 
@@ -1063,7 +1044,7 @@ packets and the \textbf{communication watchdog} before the robot is operated in 
     \item Optional improvement: a right-angle version of P2 would let the ribbon cable leave parallel
     to the board.
     \item Firmware: candleLight build for the BYTE SPIne pinout (done, patch in
-    \texttt{BYTE\_SPIne/Firmware/BYTE\_SPIne\_candleLight.patch}); SPI slave firmware with watchdog
+    \path{BYTE_SPIne/Firmware/BYTE_SPIne_candleLight.patch}); SPI slave firmware with watchdog
     (not yet tested).
     \item Verify the termination of the actuators (only the last motor of each leg terminated).
 \end{itemize}
